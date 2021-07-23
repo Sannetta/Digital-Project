@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Паркинг</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/" />
+    <script
+      src="https://kit.fontawesome.com/faa688a700.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      @font-face {
+        font-family: "TTHoves-Regular";
+        src: url(fonts/TTHoves-Regular.woff) format("woff"),
+          url(fonts/TTHoves-Regular.ttf) format("truetype"),
+          url(fonts/TTHoves-Regular.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Light";
+        src: url(fonts/TTHoves-Light.woff) format("woff"),
+          url(fonts/TTHoves-Light.ttf) format("truetype"),
+          url(fonts/TTHoves-Light.woff2) format("woff2");
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "TTHoves-Bold";
+        src: url(fonts/TTHoves-Bold.woff) format("woff"),
+          url(fonts/TTHoves-Bold.ttf) format("truetype"),
+          url(fonts/TTHoves-Bold.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      .wrapper {
+        margin: auto;
+        max-width: 1200px;
+      }
+
+      .heading {
+        margin: 2% 0;
+        text-transform: uppercase;
+      }
+      hr {
+        border: 1px #e5e5e5 solid;
+        margin: 4% 0 2% 0;
+      }
+
+      .heading-top {
+        font-family: TTHoves-Light;
+        font-size: 64px;
+        line-height: 64px;
+        color: #bdbdbd;
+        margin: 0;
+      }
+      .heading-down {
+        font-family: TTHoves-Bold;
+        font-size: 64px;
+        line-height: 64px;
+        color: #333333;
+        margin: 0;
+      }
+
+      .block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+      }
+
+      .block-item {
+        margin-bottom: 2%;
+      }
+
+      .one {
+        max-width: 100%;
+        object-fit: cover;
+      }
+
+      .one img {
+        object-fit: cover;
+      }
+      .two {
+        flex-basis: 30%;
+        object-fit: cover;
+      }
+      .text {
+        flex-basis: 60%;
+
+        font-family: TTHoves-Regular;
+        font-size: 16px;
+        line-height: 25px;
+        color: #333333;
+        margin-left: 2%;
+      }
+      .draft {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="heading">
+        <p class="heading-top">Паркинг на</p>
+        <p class="heading-down">500 автомобилей</p>
+      </div>
+      <hr />
+      <div class="block">
+        <div class="block-item one">
+          <img src="assets/page_4/image 1.png" alt="comando" />
+        </div>
+        <div class="block-item two">
+          <img src="assets/page_4/image 2.png" alt="room" />
+        </div>
+        <div class="block-item text">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently
+            with desktop publishing software like Aldus PageMaker including
+            versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with.
+          </p>
+        </div>
+        <div class="block-item draft">
+          <img src="assets/page_4/image 3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
