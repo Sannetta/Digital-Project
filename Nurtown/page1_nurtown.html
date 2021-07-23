@@ -6,19 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            border: 1px solid black;
+            justify-content: stretch;
+        }
+
+        .leftpart {
+            border: 1px solid black;
+            grid-column-start: 1;
+            margin-left: 10%;
+        }
+
+        .picturepart {
+            border: 1px solid black;
+            grid-column-start: 2;
+            margin-right: 10%;
+            position: relative;
+            display: grid;
+        }
+
+        .picturepart>.btnlook {
+            position: absolute;
+            background-color: white;
+            border: none;
+            align-self: flex-end;
+        }
+
+        .photo {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    </style>
 </head>
 
 <body>
-    <h1>PROJECT</h1>
-    <h1>NURTOWN</h1>
+    <div class="container">
+        <div class="leftpart">
+            <p>PROJECT</p>
+            <p>NURTOWN</p>
 
 
-    <!--Кнопки со стрелками-->
-    <button>
-        <img src="Buttonleft.svg" alt="left">
-        <img src="Buttonright.svg" alt="right">
-        <img src="Line.svg" alt="line">
-    </button> <img src="photonurtown.jpg" alt="photo" style="width: 50vw;">
+
+            <button>
+                <img src="Buttonleft.svg" alt="left">
+                <img src="Buttonright.svg" alt="right">
+                <img src="Line.svg" alt="line">
+            </button>
+
+            <p>01</p>
+            <img src="Slash.svg" alt="slash">
+            <p>01</p>
+        </div>
+
+        <div class="picturepart">
+            <button class="btnlook">
+                <img class="imglook" src="look.svg" alt="look">
+            </button>
+            <img class="photo" src="photonurtown.jpg" alt="photo">
+
+        </div>
+    </div>
 </body>
 
 </html>
