@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задать вопрос</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/" />
+
+    <style>
+      @font-face {
+        font-family: "TTHoves-Regular";
+        src: url(fonts/TTHoves-Regular.woff) format("woff"),
+          url(fonts/TTHoves-Regular.ttf) format("truetype"),
+          url(fonts/TTHoves-Regular.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Bold";
+        src: url(fonts/TTHoves-Bold.woff) format("woff"),
+          url(fonts/TTHoves-Bold.ttf) format("truetype"),
+          url(fonts/TTHoves-Bold.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      .wrapper {
+        max-width: 550px;
+        margin: 0 auto;
+      }
+
+      .heading {
+        font-family: TTHoves-Bold;
+        text-align: center;
+        font-size: 21px;
+        color: #333333;
+        margin-bottom: 5%;
+      }
+
+      .form {
+        width: 100%;
+      }
+
+      .btn {
+        width: 100%;
+        min-height: 50px;
+        background-color: #333333;
+      }
+      .btn a {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+      }
+
+      .input {
+        width: 100%;
+        min-height: 40px;
+        margin: 4% 0;
+        font-family: TTHoves-Regular;
+        font-size: 14px;
+        color: #333333;
+        background-color: #e5e5e5;
+        border: none;
+      }
+
+      .textarea {
+        width: 100%;
+        min-height: 100px;
+        margin: 20px 0;
+        background-color: #e5e5e5;
+        border: none;
+        font-family: TTHoves-Regular;
+        font-size: 14px;
+        color: #333333;
+      }
+      .checkbox {
+        margin-bottom: 10%;
+        font-family: TTHoves-Regular;
+        font-size: 14px;
+        color: #333333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="" class="form">
+        <div class="heading">
+          <p>Задать вопрос</p>
+        </div>
+        <div class="name">
+          <label for="name">
+            <input class="input" type="text" id="name" placeholder="Имя" />
+          </label>
+        </div>
+
+        <div class="phone">
+          <label for="phone">
+            <input
+              class="input"
+              type="tel"
+              id="phone"
+              placeholder="Номер телефона*"
+            />
+          </label>
+        </div>
+
+        <div class="email">
+          <label for="email">
+            <input
+              class="input"
+              type="email"
+              id="email"
+              placeholder="E-mail*"
+            />
+          </label>
+        </div>
+
+        <div class="product">
+          <label for="name">
+            <input
+              class="input"
+              type="text"
+              id="product"
+              placeholder="Интересующий товар/услуга"
+            />
+          </label>
+        </div>
+
+        <div class="message">
+          <label for="message">
+            <textarea
+              class="textarea"
+              name="message"
+              id="message"
+              placeholder="Сообщение <span>*</span>"
+            ></textarea>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox" /> Отправляя
+            заявку Вы соглашаетесь с политикой конфиденциальности
+          </label>
+        </div>
+
+        <div class="button">
+          <button class="btn">
+            <a href="#">Отправить</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
