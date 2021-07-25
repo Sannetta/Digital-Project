@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/" />
+    <script
+      src="https://kit.fontawesome.com/faa688a700.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @font-face {
+        font-family: "SFProDisplay";
+        src: url("fonts/SFProDisplay-Heavy.woff") format("woff"),
+          url("fonts/SFProDisplay-Heavy.ttf") format("truetype"),
+          url("fonts/SFProDisplay-Heavy.woff2") format("woff2");
+        font-style: normal;
+        font-weight: 900;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Regular";
+        src: url(fonts/TTHoves-Regular.woff) format("woff"),
+          url(fonts/TTHoves-Regular.ttf) format("truetype"),
+          url(fonts/TTHoves-Regular.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Light";
+        src: url(fonts/TTHoves-Light.woff) format("woff"),
+          url(fonts/TTHoves-Light.ttf) format("truetype"),
+          url(fonts/TTHoves-Light.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      .block {
+        margin: auto;
+        max-width: 1200px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding: 0 3%;
+        background-color: #e5e5e5;
+      }
+
+      .block-item {
+        margin: 20px;
+      }
+
+      .block-item-heading {
+        font-family: TTHoves-Light;
+        font-size: 64px;
+        line-height: 64px;
+        font-weight: 300;
+        color: #bdbdbd;
+      }
+
+      .block-item-text {
+        margin: 15% 0 5% 0;
+        padding-bottom: 5%;
+        font-family: TTHoves-Regular;
+        font-size: 16px;
+        line-height: 25px;
+      }
+
+      .btn {
+        width: 220px;
+        height: 70px;
+        background-color: #ffffff;
+        border: none;
+      }
+      .btn-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333333;
+        font-family: TTHoves-Regular;
+        font-size: 12px;
+        line-height: 12px;
+      }
+
+      .block-2 {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .block-2_body {
+        display: flex;
+        justify-content: space-between;
+      }
+      .block-2-item {
+        display: flex;
+        align-items: center;
+      }
+      .one {
+        max-width: 400px;
+      }
+      .two {
+        max-width: 570px;
+      }
+      .numbers {
+        font-family: SFProDisplay;
+        font-size: 200px;
+        line-height: 150px;
+        color: #f2f2f2;
+      }
+
+      .block-2_text {
+        font-family: TTHoves-Regular;
+        font-size: 22px;
+        line-height: 36px;
+        padding-left: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <div class="block-item">
+        <img src="../assets/page_1/building-1.png" alt="building1" />
+        <img src="../assets/page_1/building-2.png" alt="building2" />
+      </div>
+
+      <div class="block-item">
+        <img src="../assets/page_1/building-3.png" alt="building3" />
+      </div>
+
+      <div class="block-item">
+        <div class="block-item-heading">
+          <p>О компании</p>
+        </div>
+
+        <div class="block-item-text">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+        <div class="block-button">
+          <button class="btn">
+            <a class="btn-link" href="#"
+              >Читать <i class="fa fa-solid fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="block-2">
+      <div class="block-item-heading">
+        <p>Основные задачи</p>
+      </div>
+      <div class="block-2_body">
+        <div class="block-2-item one">
+          <div class="numbers">1</div>
+          <div class="block-2_text">
+            <p>
+              Создание комфортных условий и повышение качества обслуживания
+              клиентов
+            </p>
+          </div>
+        </div>
+
+        <div class="block-2-item two">
+          <div class="numbers">2</div>
+          <div class="block-2_text">
+            <p>
+              Постоянно совершенствовать качество предоставляемых услуг путем
+              обучения персонала, закупки нового оборудования и усиленной
+              рекламы на рынке
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

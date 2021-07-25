@@ -6,93 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Задать вопрос</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/" />
-
-    <style>
-      @font-face {
-        font-family: "TTHoves-Regular";
-        src: url(../fonts/TTHoves-Regular.woff) format("woff"),
-          url(../fonts/TTHoves-Regular.ttf) format("truetype"),
-          url(../fonts/TTHoves-Regular.woff2) format("woff2");
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "TTHoves-Bold";
-        src: url(../fonts/TTHoves-Bold.woff) format("woff"),
-          url(../fonts/TTHoves-Bold.ttf) format("truetype"),
-          url(../fonts/TTHoves-Bold.woff2) format("woff2");
-        font-style: normal;
-      }
-
-      .wrapper {
-        max-width: 550px;
-        margin: 0 auto;
-      }
-
-      .heading {
-        font-family: TTHoves-Bold;
-        text-align: center;
-        font-size: 21px;
-        color: #333333;
-        margin-bottom: 5%;
-      }
-
-      .form {
-        width: 100%;
-      }
-
-      .btn {
-        width: 100%;
-        min-height: 50px;
-        background-color: #333333;
-      }
-      .btn a {
-        display: block;
-        text-align: center;
-        font-size: 12px;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: white;
-      }
-
-      .input {
-        width: 100%;
-        min-height: 40px;
-        margin: 4% 0;
-        font-family: TTHoves-Regular;
-        font-size: 14px;
-        color: #333333;
-        background-color: #e5e5e5;
-        border: none;
-      }
-
-      .textarea {
-        width: 100%;
-        min-height: 100px;
-        margin: 20px 0;
-        background-color: #e5e5e5;
-        border: none;
-        font-family: TTHoves-Regular;
-        font-size: 14px;
-        color: #333333;
-      }
-      .checkbox {
-        margin-bottom: 10%;
-        font-family: TTHoves-Regular;
-        font-size: 14px;
-        color: #333333;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="wrapper">
-      <form action="" class="form">
+      <form action="#" class="form">
         <div class="heading">
-          <p>Задать вопрос</p>
+          <h1>Задать вопрос</h1>
         </div>
+
         <div class="name">
           <label for="name">
-            <input class="input" type="text" id="name" placeholder="Имя" />
+            <input
+              class="input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Имя"
+            />
           </label>
         </div>
 
@@ -101,8 +33,10 @@
             <input
               class="input"
               type="tel"
+              name="phone"
               id="phone"
               placeholder="Номер телефона*"
+              required
             />
           </label>
         </div>
@@ -112,17 +46,20 @@
             <input
               class="input"
               type="email"
+              name="email"
               id="email"
               placeholder="E-mail*"
+              required
             />
           </label>
         </div>
 
         <div class="product">
-          <label for="name">
+          <label for="product">
             <input
               class="input"
               type="text"
+              name="product"
               id="product"
               placeholder="Интересующий товар/услуга"
             />
@@ -136,19 +73,21 @@
               name="message"
               id="message"
               placeholder="Сообщение*"
+              required
             ></textarea>
           </label>
         </div>
+
         <div class="checkbox">
           <label for="checkbox">
-            <input type="checkbox" name="checkbox" id="checkbox" /> Отправляя
-            заявку Вы соглашаетесь с политикой конфиденциальности
+            <input type="checkbox" name="checkbox" id="checkbox" required />
+            Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
           </label>
         </div>
 
         <div class="button">
           <button class="btn">
-            <a href="#">Отправить</a>
+            <a href="../page_8/index.html">Отправить</a>
           </button>
         </div>
       </form>
