@@ -35,13 +35,20 @@
 
  .wid {
      width: 150%;
+ 
+ }
+ .max {
+  max-width: 1200px;
+ }
+ .min{
+  min-width: 300px;
  }
  .mar {
      margin: 2%;
  }
- .pad {
+ /*.pad {
      padding-left: 5%;
- }
+ }*/
  .your-style {
     font-family: 'TTHoves-Regular';
     font-weight: 300;
@@ -93,12 +100,12 @@ border-color: black;
 </head>
 
 <body>
-    <div class="container mar ">
-        <nav class="navbar navbar-expand-lg navbar-light pad md-5  ">
-          <div class="container-fluid img-fluid">
-            <img class="navbar-brand pad img-fluid" src="Group 11.png"  alt="icon"></img>
+    <div class="container mar max  ">
+        <nav class="navbar navbar-expand-lg navbar-light min pad md-5  ">
+          <div class="container-fluid img-fluid min">
+            <img class="navbar-brand pad  img-fluid" src="Group 11.png"  alt="icon"></img>
           </div>
-          <ul class="nav justify-content-end wid your-style">
+          <ul class="nav nav-justified wid min  your-style">
             <li class="nav-item">
               <a class="nav-link  twoline" href="#"> Главная</a>
             </li>
@@ -121,11 +128,11 @@ border-color: black;
      
         <footer class="pt-4 md-5 pt-md-5 fixed-bottom bg-dark text-white  " > 
           <div class="row">
-            <div class="col-3 col-md text-center">
+            <div class="col-6 col-md-3  text-center">
               <img class="navbar-brand pad img-fluid" src="Group 11 1.png"  alt="icon"></img>
             </div>
 
-            <div class="col-3 col-md  ">
+            <div class=" col-6 col-md-3 ">
               <h5 class="your-style1">Информация</h5>
               <ul class="list-unstyled text-small py-4 your-style2">
                 <li><a href="" class="link-secondary">Главная</a> </li>
@@ -135,7 +142,7 @@ border-color: black;
                 <li><a href="" class="link-secondary">Контакты</a> </li>
               </ul>
             </div>
-            <div class="col-3 col-md">
+            <div class="col-6 col-md-3 ">
               <h5 class="your-style1">Контакты</h5>
               <ul class="list-unstyled text-small py-4 your-style2 ">
                 <li> <img src="Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
@@ -144,7 +151,7 @@ border-color: black;
                 <br /><li> <img src="pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
               </ul>
             </div>
-            <div class="col-3 col-md ">
+            <div class="col-6 col-md-3  ">
               <h5 class="your-style1">Социальные сети</h5>
               <div class="row py-4 ">
              <div class="col "> 
@@ -162,7 +169,7 @@ border-color: black;
         </div>
               </div>
             </div>  
-            <div class="col-12  col-6 text-center text-secondary ">
+            <div class="col-12 text-center text-secondary ">
             <hr>
             &copy; 2019 Digital project. Все права защищены.
         </footer>    
