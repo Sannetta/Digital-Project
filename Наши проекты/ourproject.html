@@ -40,51 +40,77 @@
       }
 
       .textpro {
-        font-family: TTHoves-Light;
+        font-family: "TTHoves-Light";
         font-style: normal;
         font-weight: 300;
-        font-size: 64px;
+        font-size: 4rem;
         line-height: 64px;
         padding-bottom: 7%;
 
         color: rgba(189, 189, 189, 1);
       }
+  
+
       .marpad {
-        margin-right: -75px;
+       
         padding-bottom: 26px;
       }
+      .foto  {
+        width: 100%;
+      }
+
+    
+      .your-style {
+    font-family: "TTHoves-Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+   /* line-height: 4rem;*/
+    text-transform: uppercase;  
+      }
+      .btn-link {
+        text-decoration-line: none;
+    color: white;
+      }
+
+
     </style>
   </head>
   <body>
     <div class="container">
       <h1 class="textpro">Наши проекты</h1>
       <div class="row marpad">
-        <div class="col-6">
-          <img class="img-fluid" src="Rectangle 12.png" alt="" />
+        <div class="col-6  text-white foto ">
+          <img class="img-fluid " src="Rectangle 12.png" alt="" />
+          <div class="card-img-overlay ">
+          <h1 class="card-text  your-style">Досуговый центр </h1>
+          </div>
         </div>
         <div class="col-6">
-          <img class="img-fluid" src="image 15.png" alt="" />
+          <img class="img-fluid foto" src="image 15.png" alt="" />
         </div>
       </div>
       <div class="row marpad">
         <div class="col-3">
-          <img class="img-fluid" src="image 16.png" alt="" />
+          <img class="img-fluid foto" src="image 16.png" alt="" />
         </div>
         <div class="col-5">
-          <img class="img-fluid" src="image 17.png" alt="" />
+          <img class="img-fluid foto" src="image 17.png" alt="" />
         </div>
         <div class="col-4">
-          <img class="img-fluid" src="image 18.png" alt="" />
+          <img class="img-fluid foto" src="image 18.png" alt="" />
         </div>
       </div>
     </div>
-
-    <div class="block-button">
-      <button class="btn">
+    <div class="row justify-content-end ">
+      <div class="col-12 ">
+      <button class="btn bg-dark text-white ">
         <a class="btn-link" href="#"
           >Все проекты <i class="bi bi-arrow-right"></i>
         </a>
       </button>
+
+      </div>
     </div>
 
     <script
