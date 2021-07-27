@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+      url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+      url(../fonts/TTHoves-Regular.woff2) format("woff2");
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "TTHoves-Bold";
+    src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+      url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+      url(../fonts/TTHoves-Bold.woff2) format("woff2");
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "TTHoves-Light";
+    src: url(../fonts/TTHoves-Light.woff) format("woff"),
+      url(../fonts/TTHoves-Light.ttf) format("truetype"),
+      url(../fonts/TTHoves-Light.woff2) format("woff2");
+    font-style: normal;
+  }
+
+  /*main part parking*/
+
+  .wrapper {
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  .heading {
+    margin: 2% 0;
+    text-transform: uppercase;
+  }
+
+  .top {
+    border: 1px #e5e5e5 solid;
+    margin: 4% 0 2% 0;
+  }
+
+  .heading-top {
+    font-family: TTHoves-Light;
+    font-size: 64px;
+    line-height: 64px;
+    color: #bdbdbd;
+    margin: 0;
+  }
+
+  .heading-down {
+    font-family: TTHoves-Bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    margin: 0;
+  }
+
+  h1 {
+    font-weight: normal;
+    font-size: 1em;
+  }
+
+  .block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  .block-item {
+    margin-bottom: 2%;
+  }
+
+  .one img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .two {
+    flex-basis: 30%;
+  }
+
+  .text {
+    flex-basis: 60%;
+
+    font-family: TTHoves-Regular;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 2%;
+  }
+
+  .draft img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  /*header + footer*/
+
+  .wid {
+    width: 150%;
+  }
+
+  .min {
+    min-width: 270px;
+  }
+
+  .your-style {
+    font-family: "TTHoves-Regular";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+  }
+
+  .your-style1 {
+    font-family: "TTHoves-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .your-style2 {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .nav-link {
+    text-decoration-line: none;
+    color: black;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+  }
+
+  .link-secondary {
+    text-decoration-line: none;
+    color: white;
+  }
+
+  .paddin {
+    padding-bottom: 10px;
+  }
+
+  .list li {
+    margin-bottom: 5%;
+  }
+
+  hr {
+    border: 1px solid #858383;
+  }
+
+  .wrapper-header {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+  @media all and (max-width: 650px) {
+    .heading-top {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .heading-down {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .two img {
+      max-width: 280px;
+    }
+  }
