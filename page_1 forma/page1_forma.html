@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+
+    <style>
+        @font-face {
+            font-family: "TTHoves-Light";
+            src: url(../fonts/TTHoves-Light.ttf) format("truetype"),
+                url(../fonts/TTHoves-Light.woff) format("woff"),
+                url(../fonts/TTHoves-Light.woff2) format("woff2");
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "TTHoves-Regular";
+            src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+                url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+                url(../fonts/TTHoves-Regular.woff2) format("woff2");
+            font-style: normal;
+        }
+
+        .all_contactus {
+            margin-left: 9.5%;
+            margin-right: 9.5%;
+            /* border: 1px solid black; */
+        }
+
+        .container_form {
+            display: grid;
+            grid-template-columns: 35% 65%;
+            /* border: 1px solid black; */
+        }
+
+        .leftpart_form {
+            /* border: 1px solid black; */
+        }
+
+        .rightpart_form {
+            /* border: 1px solid black; */
+        }
+
+        .h2_contactus {
+            font-family: "TTHoves-Light";
+            color: #bdbdbd;
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 2vh;
+            font-size: 4.3vw;
+        }
+
+        .input {
+            font-family: "TTHoves-Regular";
+            font-size: 1vw;
+            padding: 1vw;
+            background-color: #F3F3F3;
+            color: #8D8D8D;
+            border: none;
+            margin: 0.4vh;
+            width: 24vw;
+        }
+
+        .textarea {
+            font-family: TTHoves-Regular;
+            background-color: #F3F3F3;
+            border: none;
+            width: 24vw;
+            height: 8.5vh;
+            font-size: 1vw;
+            padding: 1vw;
+            margin: 0.4vh;
+            margin-bottom: 0;
+        }
+
+        .photo_form {
+            height: 97%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .checkbox {
+            display: grid;
+            margin-left: 0.2vw;
+            position: relative;
+            grid-template-columns: 1vw 150vw;
+        }
+
+        .checkboxtext {
+            font-family: "TTHoves-Regular";
+            font-size: 1vw;
+            color: 333333;
+            margin: 1vh;
+            width: 15%;
+            /* border: 1px solid black; */
+        }
+
+        .box {
+            margin-top: 1.2vh;
+            margin-left: 0.5vw;
+            /* border: 1px solid black; */
+            width: 1vw;
+        }
+
+        .btn {
+            /* position: absolute; */
+            padding-left: 0;
+            background-color: white;
+            border: none;
+            margin-top: 1vh;
+        }
+
+        .imgbtn {
+            width: 14.1vw
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="all_contactus">
+        <h2 class="h2_contactus">Связаться с нами</h2>
+
+        <div class="container_form">
+            <div class="leftpart_form">
+                <div class="name">
+                    <label for="name">
+                        <input class="input" type="name" id="name" placeholder="Имя" />
+                    </label>
+                </div>
+
+                <div class="phone">
+                    <label for="phone">
+                        <input class="input" type="phone" id="phone" placeholder="Номер телефона*" />
+                    </label>
+                </div>
+
+                <div class="email">
+                    <label for="email">
+                        <input class="input" type="email" id="email" placeholder="E-mail*" />
+                    </label>
+                </div>
+
+                <div class="product">
+                    <label for="product">
+                        <input class="input" type="product" id="product" placeholder="Интересующий товар/услуга" />
+                    </label>
+                </div>
+
+                <div class="message">
+                    <label for="message">
+                        <textarea class="textarea" name="message" id="message" placeholder="Сообщение*"></textarea>
+                    </label>
+                </div>
+            </div>
+
+            <div class="righttpart_form">
+                <img class="photo_form" src="photo.jpg" alt="photo">
+            </div>
+        </div>
+        <div class="checkbox">
+            <input class="box" type="checkbox" name="checkbox" id="checkbox" />
+            <p class="checkboxtext">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+            <button class="btn">
+                <img class="imgbtn" src="Button.svg" alt="btn">
+            </button>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
