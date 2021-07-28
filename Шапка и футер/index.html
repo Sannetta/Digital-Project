@@ -32,23 +32,19 @@
         font-style: normal;
       }
 
-
- .wid {
-     width: 150%;
+/*header*/
  
- }
- .max {
-  max-width: 1200px;
- }
  .min{
   min-width: 300px;
  }
- .mar {
-     margin: 2%;
+ .sizepadding {
+      padding-left: 0;
+      padding-right: 0; 
  }
- /*.pad {
-     padding-left: 5%;
- }*/
+ .flexwrap {
+     flex-wrap: nowrap;
+ }
+
  .your-style {
     font-family: 'TTHoves-Regular';
     font-weight: 300;
@@ -57,6 +53,8 @@
     line-height: 12px;
     text-transform: uppercase;     
 }
+
+/*footer*/ 
 .your-style1 {
   font-family: "TTHoves-Bold";
 font-style: normal;
@@ -83,56 +81,55 @@ line-height: 24px;
   text-decoration-line: none;
     color: white;
  }
- .paddin{
-   padding-bottom: 10px;
- }
-.hrsize {
-margin-top: 0;
-margin-bottom: 0;
-border-color: black;
-}
+
 .twoline {
   text-decoration: underline overline;
 }
  
-
+.list li {
+    margin-bottom: 5%;
+  }
+  
     </style>
 </head>
 
 <body>
-    <div class="container mar max  ">
-        <nav class="navbar navbar-expand-lg navbar-light min pad md-5  ">
-          <div class="container-fluid img-fluid min">
-            <img class="navbar-brand pad  img-fluid" src="Group 11.png"  alt="icon"></img>
-          </div>
-          <ul class="nav nav-justified wid min  your-style">
-            <li class="nav-item">
-              <a class="nav-link  twoline" href="#"> Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Галерея</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Проекты</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Сертификаты</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#" >Контакты</a>
-            </li>
-          </ul>
-        </nav>
+  <div class="container  sizepadding  ">
+    <nav class="navbar navbar-expand-lg navbar-light  md-5  ">
+      <div class="container-fluid img-fluid min">
+        <img class="navbar-brand   img-fluid" src="Group 11.png"  alt="icon"></img>
+      </div>
+      <ul class="nav  nav-justified flexwrap your-style">
+        <li class="nav-item">
+          <a class="nav-link  twoline" href="#"> Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Галерея</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Проекты</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Сертификаты</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#" >Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+     
+  <footer class="container-fluid mt-5">
+    <div class="row md-5 p-md-5 bg-dark text-white">
+      <div class="col-12 col-md text-center">
+        <img
+          class="navbar-brand p-3"
+          src="Group 11 1.png"
+          alt="icon"
+        />
       </div>
 
-     
-        <footer class="pt-4 md-5 pt-md-5 bg-dark text-white  " > 
-          <div class="row">
-            <div class="col-6 col-md-3  text-center">
-              <img class="navbar-brand pad img-fluid" src="Group 11 1.png"  alt="icon"></img>
-            </div>
-
-            <div class=" col-6 col-md-3 ">
+      <div class="col-12 col-md text-center text-md-left">
               <h5 class="your-style1">Информация</h5>
               <ul class="list-unstyled text-small py-4 your-style2">
                 <li><a href="" class="link-secondary">Главная</a> </li>
@@ -142,16 +139,15 @@ border-color: black;
                 <li><a href="" class="link-secondary">Контакты</a> </li>
               </ul>
             </div>
-            <div class="col-6 col-md-3 ">
+            <div class="col-12 col-md text-center text-md-left">
               <h5 class="your-style1">Контакты</h5>
-              <ul class="list-unstyled text-small py-4 your-style2 ">
+              <ul class="list-unstyled text-small py-4  list your-style2 ">
                 <li> <img src="Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
-                
-                <br /><li> <img src="telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
-                <br /><li> <img src="pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
+                 <li> <img src="telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
+                <li> <img src="pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
               </ul>
             </div>
-            <div class="col-6 col-md-3  ">
+            <div class="col-12 col-md text-center text-md-left">
               <h5 class="your-style1">Социальные сети</h5>
               <div class="row py-4 ">
              <div class="col "> 
