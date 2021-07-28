@@ -35,26 +35,85 @@
 
         .container {
             display: grid;
-            /* border: 1px solid black; */
-            justify-content: stretch;
             margin-left: 9.5%;
             margin-right: 9.5%;
             grid-template-columns: 34% 66%;
         }
 
         .leftpart {
-            /* border: 1px solid black; */
-            grid-column-start: 1;
-            display: grid;
+            position: relative;
         }
 
         .picturepart {
-            /* border: 1px solid black; */
-            grid-column-start: 2;
             position: relative;
             display: grid;
-            width: min-content(53%);
-            width: max-content(770px);
+        }
+
+        .project {
+            font-family: "TTHoves-Light";
+            color: #bdbdbd;
+            margin: 0;
+            font-weight: 300;
+            font-size: 4.3vw;
+            padding-top: 80%;
+        }
+
+        .nurtown {
+            font-family: "TTHoves-Bold";
+            color: #333333;
+            margin: 0;
+            font-weight: 700;
+            font-size: 4.3vw;
+        }
+
+        .left,
+        .right {
+            grid-area: left;
+            padding: 0;
+            background-color: white;
+            border: none;
+            margin-top: 22%;
+        }
+
+        .right {
+            margin-left: 4%;
+        }
+
+        .imgleft,
+        .imgright {
+            width: 3.7vw;
+        }
+
+        .line {
+            width: 19vw;
+            position: absolute;
+            margin-top: 28.5%;
+        }
+
+        .numbers {
+            width: 9vw;
+            font-family: "TTHoves-Regular";
+            color: #bdbdbd;
+            font-size: 1.5vw;
+            margin-top: 20%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            position: relative;
+        }
+
+        .numberone,
+        .numbertwo {
+            padding-top: 1vh;
+        }
+
+        .numbertwo {
+            text-align: right;
+        }
+
+        .slash {
+            width: 3vw;
+            position: absolute;
+            margin-left: 3vw;
         }
 
         .picturepart>.btnlook {
@@ -62,85 +121,17 @@
             background-color: white;
             border: none;
             align-self: flex-end;
+            padding-bottom: 0;
+        }
+
+        .imglook {
+            width: 14.1vw;
         }
 
         .photo {
             height: 100%;
             width: 100%;
             object-fit: cover;
-        }
-
-        .project_nurtown {
-            width: 83%;
-            /* border: 1px solid black; */
-            display: grid;
-            margin-top: 80%;
-        }
-
-        .project {
-            font-family: "TTHoves-Light";
-            color: #bdbdbd;
-            /* border: 1px solid rgb(75, 43, 43); */
-            margin: 0;
-            font-weight: 300;
-            height: 100%;
-            font-size: 64px;
-        }
-
-        .nurtown {
-            font-family: "TTHoves-Bold";
-            color: #333333;
-            /* border: 1px solid black; */
-            margin: 0;
-            font-weight: 700;
-            height: 100%;
-            font-size: 64px;
-        }
-
-        .btn_left_right {
-            background-color: white;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: "left right line";
-            width: 100%;
-            margin-top: 15%;
-            padding: 0;
-            justify-items: stretch;
-            border: none;
-        }
-
-        .left {
-            grid-area: left;
-            /* border: 1px solid black; */
-            height: 50%;
-        }
-
-        .right {
-            grid-area: right;
-            /* border: 1px solid black; */
-            height: 50%;
-            margin-left: 10%;
-        }
-
-        .line {
-            grid-area: line;
-            /* border: 1px solid black; */
-            padding-top: 6.5%;
-            padding-bottom: 6.5%;
-        }
-
-        .numbers {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            /* border: 1px solid black; */
-            align-content: center;
-            font-family: "TTHoves-Regular";
-            color: #bdbdbd;
-        }
-
-        .number01,
-        .number02 {
-            font-family: "TTHoves-Regular";
         }
     </style>
 </head>
@@ -149,20 +140,24 @@
     <div class="container">
         <div class="leftpart">
             <div class="project_nurtown">
-                <p class="project">PROJECT</p>
-                <p class="nurtown">NURTOWN</p>
+                <h1 class="project">PROJECT</h1>
+                <h1 class="nurtown">NURTOWN</h1>
             </div>
 
-            <button class="btn_left_right">
-                <img class="left" src="Buttonleft.svg" alt="left" />
-                <img class="right" src="Buttonright.svg" alt="right" />
-                <img class="line" src="Line.svg" alt="line" />
+            <button class="left">
+                <img class="imgleft" src="Buttonleft.svg" alt="left" />
             </button>
 
+            <button class="right">
+                <img class="imgright" src="Buttonright.svg" alt="right" />
+            </button>
+
+            <img class="line" src="Line.svg" alt="line" />
+
             <div class="numbers">
-                <p class="number01">01</p>
-                <img src="Slash.svg" alt="slash" />
-                <p class="number02">02</p>
+                <div class="numberone">01</div>
+                <div class="numbertwo">02</div>
+                <img class="slash" src="Slash.svg" alt="slash" />
             </div>
         </div>
 
