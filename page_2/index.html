@@ -47,40 +47,19 @@
     }
     }
 
-            .textpro {
-            font-family: "TTHoves-Light";
-            font-style: normal;
-            font-weight: 300;
-            font-size: 64px;
-            line-height: 64px;
-            color: rgba(189, 189, 189, 1);
-            text-transform: uppercase;
-          }
-          .your-stylepage2 {
-        font-family: "TTHoves-Bold";
-        font-weight: 700;
-        font-style: normal;
-        font-size: 64px;
-        text-transform: uppercase;
-        color: rgba(51, 51, 51, 1);
-          }
-        .card-text {
-            text-decoration-line: none;
-            color:rgba(51, 51, 51, 1);
-            font-size: 13px;
-        }
-        .sizepadding {
-         padding-left: 0;
-         padding-right: 0; 
-        } 
-
-        .topbot {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 15px;
-        }
-
+    /*header*/
  
+ .min{
+  min-width: 300px;
+ }
+ .sizepadding {
+      padding-left: 0;
+      padding-right: 0; 
+ }
+ .flexwrap {
+     flex-wrap: nowrap;
+ }
+
  .your-style {
     font-family: 'TTHoves-Regular';
     font-weight: 300;
@@ -89,6 +68,8 @@
     line-height: 12px;
     text-transform: uppercase;     
 }
+
+/*footer*/ 
 .your-style1 {
   font-family: "TTHoves-Bold";
 font-style: normal;
@@ -115,45 +96,74 @@ line-height: 24px;
   text-decoration-line: none;
     color: white;
  }
- .paddin{
-   padding-bottom: 10px;
- }
-.hrsize {
-margin-top: 0;
-margin-bottom: 0;
-border-color: black;
-}
+
 .twoline {
   text-decoration: underline overline;
 }
- .flexwrap {
-     flex-wrap: nowrap;
- }
+ 
+.list li {
+    margin-bottom: 5%;
+  }
+  /*main*/
+    .textpro {
+      font-family: "TTHoves-Light";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 64px;
+      line-height: 64px;
+      color: rgba(189, 189, 189, 1);
+      text-transform: uppercase;
+          }
+    .your-stylepage2 {
+      font-family: "TTHoves-Bold";
+      font-weight: 700;
+       font-style: normal;
+      font-size: 64px;
+      text-transform: uppercase;
+      color: rgba(51, 51, 51, 1);
+          }
+    .card-text {
+      text-decoration-line: none;
+      color:rgba(51, 51, 51, 1);
+      font-size: 13px;
+        }
+  
+    .topbot {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 15px;
+        }
+
+
  .padborder {
      padding-top: 50px;
  }
  .btnj {
         width: 50px;
         height: 40px;
-        background-color:rgba(242, 242, 242, 1);
+        background-color: rgb(248, 246, 246);
         border: none;
+        color: black;
         
     }
+  .marg {
+    margin-right: 20px;
+  }
 
     </style>
 </head>
 <body>
     <div class="container  sizepadding  ">
         <nav class="navbar navbar-expand-lg navbar-light  md-5  ">
-          <div class="container-fluid img-fluid min">
-            <img class="navbar-brand pad  img-fluid" src="assets/Group 11.png"  alt="icon"></img>
+          <div class="container-fluid img-fluid ">
+            <img class="navbar-brand  img-fluid" src="assets/Group 11.png"  alt="icon"></img>
           </div>
           <ul class="nav  nav-justified flexwrap your-style">
             <li class="nav-item">
-              <a class="nav-link  twoline" href="#"> Главная</a>
+              <a class="nav-link  " href="#"> Главная</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Галерея</a>
+              <a class="nav-link twoline " href="#">Галерея</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Проекты</a>
@@ -232,14 +242,14 @@ border-color: black;
               </div>
         </div>
 
-        <div class=" row topbot ">
-            <img src="assets/slide-numbers.png"  alt="...">
-            <button class="left btnj">
+        <div class=" row topbot marg ">
+            <img src="assets/slide-numbers.png" class="marg"  alt="...">
+            <button class="left btnj marg">
                 <a class="btn-link" href="#"
                   ><i class="bi bi-arrow-left"></i>
                 </a>
               </button> 
-            <button class="right btnj">
+            <button class="right btnj ">
               <a class="btn-link" href="#"
                 ><i class="bi bi-arrow-right"></i>
               </a>
@@ -249,57 +259,56 @@ border-color: black;
 
 
 
-    <footer class="pt-4 md-5 pt-md-5 bg-dark text-white  " > 
-        <div class="row">
-          <div class="col-12 col-md-3  text-center">
-            <img class="navbar-brand pad img-fluid" src="assets/Group 11 1.png"  alt="icon"></img>
-          </div>
-
-          <div class=" col-12 col-md-3 ">
-            <h5 class="your-style1">Информация</h5>
-            <ul class="list-unstyled text-small py-4 your-style2">
-              <li><a href="" class="link-secondary">Главная</a> </li>
-              <li><a href="" class="link-secondary">Галерея</a> </li>
-              <li><a href="" class="link-secondary">Проекты</a> </li>
-              <li><a href="" class="link-secondary">Сертификаты</a> </li>
-              <li><a href="" class="link-secondary">Контакты</a> </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-3 ">
-            <h5 class="your-style1">Контакты</h5>
-            <ul class="list-unstyled text-small py-4 your-style2 ">
-              <li> <img src="assets/Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
-              
-              <br /><li> <img src="assets/telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
-              <br /><li> <img src="assets/pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-3  ">
-            <h5 class="your-style1">Социальные сети</h5>
-            <div class="row py-4 ">
-           <div class="col "> 
-            <a href="" class="link-secondary"><i class="bi bi-facebook"></i></a>
-          </div>
-            <div class="col">
-              <a href="" class="link-secondary"> <i class="bi bi-twitter"></i></a>
-          </div>
-          <div class="col">
-            <a href="" class="link-secondary"> <i class="bi bi-linkedin"></i> </a>
+    <footer class="container-fluid mt-5">
+      <div class="row md-5 p-md-5 bg-dark text-white">
+        <div class="col-12 col-md text-center">
+          <img
+            class="navbar-brand p-3"
+            src="assets/Group 11 1.png"
+            alt="icon"
+          />
         </div>
-        <div class="col">
-          <a href="" class="link-secondary">
-          <img  src="assets/pininterest.png" alt="pinterest" class="img-fluid"></a>
-      </div>
+  
+        <div class="col-12 col-md text-center text-md-left">
+                <h5 class="your-style1">Информация</h5>
+                <ul class="list-unstyled text-small py-4 your-style2">
+                  <li><a href="" class="link-secondary">Главная</a> </li>
+                  <li><a href="" class="link-secondary">Галерея</a> </li>
+                  <li><a href="" class="link-secondary">Проекты</a> </li>
+                  <li><a href="" class="link-secondary">Сертификаты</a> </li>
+                  <li><a href="" class="link-secondary">Контакты</a> </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md text-center text-md-left">
+                <h5 class="your-style1">Контакты</h5>
+                <ul class="list-unstyled text-small py-4  list your-style2 ">
+                  <li> <img src="assets/Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
+                   <li> <img src="assets/telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
+                  <li> <img src="assets/pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md text-center text-md-left">
+                <h5 class="your-style1">Социальные сети</h5>
+                <div class="row py-4 ">
+               <div class="col "> 
+                <a href="" class="link-secondary"><i class="bi bi-facebook"></i></a>
+              </div>
+                <div class="col">
+                  <a href="" class="link-secondary"> <i class="bi bi-twitter"></i></a>
+              </div>
+              <div class="col">
+                <a href="" class="link-secondary"> <i class="bi bi-linkedin"></i> </a>
             </div>
-          </div>  
-          <div class="col-12 text-center text-secondary ">
-          <hr>
-          &copy; 2019 Digital project. Все права защищены.
-      </footer>    
-
-
-
-
+            <div class="col">
+              <a href="" class="link-secondary">
+              <img  src="assets/pininterest.png" alt="pinterest" class="img-fluid"></a>
+          </div>
+                </div>
+              </div>  
+              <div class="col-12 text-center text-secondary ">
+              <hr>
+              &copy; 2019 Digital project. Все права защищены.
+          </footer>    
 
 
 
