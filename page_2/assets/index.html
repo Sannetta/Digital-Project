@@ -35,18 +35,6 @@
                 url(../fonts/TTHoves-Light.woff2) format("woff2");
               font-style: normal;
             }
-
-            @media screen and (max-width: 900px) {
-          h1.textpro {
-        font-size: 44px;
-    }
-    }
-    @media screen and (max-width: 900px) {
-          p.your-stylepage2 {
-        font-size: 44px;
-    }
-    }
-
             .textpro {
             font-family: "TTHoves-Light";
             font-style: normal;
@@ -69,18 +57,23 @@
             color:rgba(51, 51, 51, 1);
             font-size: 13px;
         }
-        .sizepadding {
-         padding-left: 0;
-         padding-right: 0; 
-        } 
 
-        .topbot {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 15px;
-        }
-
+        .wid {
+     width: 150%;
  
+ }
+ .max {
+  max-width: 1200px;
+ }
+ .min{
+  min-width: 300px;
+ }
+ .mar {
+     margin: 2%;
+ }
+ /*.pad {
+     padding-left: 5%;
+ }*/
  .your-style {
     font-family: 'TTHoves-Regular';
     font-weight: 300;
@@ -126,29 +119,17 @@ border-color: black;
 .twoline {
   text-decoration: underline overline;
 }
- .flexwrap {
-     flex-wrap: nowrap;
- }
- .padborder {
-     padding-top: 50px;
- }
- .btnj {
-        width: 50px;
-        height: 40px;
-        background-color:rgba(242, 242, 242, 1);
-        border: none;
-        
-    }
+ 
 
     </style>
 </head>
 <body>
-    <div class="container  sizepadding  ">
-        <nav class="navbar navbar-expand-lg navbar-light  md-5  ">
+    <div class="container mar max  ">
+        <nav class="navbar navbar-expand-lg navbar-light min pad md-5  ">
           <div class="container-fluid img-fluid min">
-            <img class="navbar-brand pad  img-fluid" src="assets/Group 11.png"  alt="icon"></img>
+            <img class="navbar-brand pad  img-fluid" src="Group 11.png"  alt="icon"></img>
           </div>
-          <ul class="nav  nav-justified flexwrap your-style">
+          <ul class="nav nav-justified wid min  your-style">
             <li class="nav-item">
               <a class="nav-link  twoline" href="#"> Главная</a>
             </li>
@@ -168,7 +149,7 @@ border-color: black;
         </nav>
       </div>
 
-    <div class="container padborder ">
+    <div class="container  ">
         <h1 class="textpro">Галерея <br> <p class="your-stylepage2">Фотографий</p> </h1>
         <br> <br>
         <div class="row row-cols-2 row-cols-md-5 g-4 ">
@@ -231,31 +212,15 @@ border-color: black;
                 </div>
               </div>
         </div>
-
-        <div class=" row topbot ">
-            <img src="assets/slide-numbers.png"  alt="...">
-            <button class="left btnj">
-                <a class="btn-link" href="#"
-                  ><i class="bi bi-arrow-left"></i>
-                </a>
-              </button> 
-            <button class="right btnj">
-              <a class="btn-link" href="#"
-                ><i class="bi bi-arrow-right"></i>
-              </a>
-            </button>
-              </div>
     </div>
-
-
 
     <footer class="pt-4 md-5 pt-md-5 bg-dark text-white  " > 
         <div class="row">
-          <div class="col-12 col-md-3  text-center">
-            <img class="navbar-brand pad img-fluid" src="assets/Group 11 1.png"  alt="icon"></img>
+          <div class="col-6 col-md-3  text-center">
+            <img class="navbar-brand pad img-fluid" src="Group 11 1.png"  alt="icon"></img>
           </div>
 
-          <div class=" col-12 col-md-3 ">
+          <div class=" col-6 col-md-3 ">
             <h5 class="your-style1">Информация</h5>
             <ul class="list-unstyled text-small py-4 your-style2">
               <li><a href="" class="link-secondary">Главная</a> </li>
@@ -265,16 +230,16 @@ border-color: black;
               <li><a href="" class="link-secondary">Контакты</a> </li>
             </ul>
           </div>
-          <div class="col-12 col-md-3 ">
+          <div class="col-6 col-md-3 ">
             <h5 class="your-style1">Контакты</h5>
             <ul class="list-unstyled text-small py-4 your-style2 ">
-              <li> <img src="assets/Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
+              <li> <img src="Vector.png" alt="adres"> 100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10  </li>
               
-              <br /><li> <img src="assets/telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
-              <br /><li> <img src="assets/pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
+              <br /><li> <img src="telephone.png" alt="phone">  <a class="addres" href="tel:+77017776811">+7(701)77 76 811</a>  </li>
+              <br /><li> <img src="pochta.png" alt="pochta"> Galym.sultanov@mail.ru </li>
             </ul>
           </div>
-          <div class="col-12 col-md-3  ">
+          <div class="col-6 col-md-3  ">
             <h5 class="your-style1">Социальные сети</h5>
             <div class="row py-4 ">
            <div class="col "> 
@@ -288,7 +253,7 @@ border-color: black;
         </div>
         <div class="col">
           <a href="" class="link-secondary">
-          <img  src="assets/pininterest.png" alt="pinterest" class="img-fluid"></a>
+          <img  src="pininterest.png" alt="pinterest" class="img-fluid"></a>
       </div>
             </div>
           </div>  
