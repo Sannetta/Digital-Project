@@ -32,7 +32,7 @@
 
         .container_form {
             display: grid;
-            grid-template-columns: 35% 65%;
+            grid-template-columns: 45% 55%;
         }
 
         .h2_contactus {
@@ -41,30 +41,32 @@
             font-weight: 300;
             margin-top: 0;
             margin-bottom: 2vh;
-            font-size: 4.3vw;
+            font-size: 64px;
         }
 
         .input {
             font-family: "TTHoves-Regular";
-            font-size: 1vw;
+            font-size: 14px;
             padding: 1vw;
             background-color: #F3F3F3;
             color: #8D8D8D;
             border: none;
             margin: 0.4vh;
-            width: 24vw;
+            width: 390px;
+        }
+
+        .message {
+            height: 140px;
+            width: 370px;
+            margin: 0;
         }
 
         .textarea {
-            font-family: TTHoves-Regular;
-            background-color: #F3F3F3;
-            border: none;
-            width: 24vw;
-            height: 8.5vh;
-            font-size: 1vw;
-            padding: 1vw;
-            margin: 0.4vh;
-            margin-bottom: 0;
+            margin: 0;
+        }
+
+        #message {
+            padding-bottom: 80px;
         }
 
         .photo_form {
@@ -82,7 +84,7 @@
 
         .checkboxtext {
             font-family: "TTHoves-Regular";
-            font-size: 1vw;
+            font-size: 14px;
             margin: 1vh;
             width: 15%;
         }
@@ -94,21 +96,78 @@
         }
 
         .btn {
-            padding-left: 0;
-            background-color: white;
+            background-color: #333333;
             border: none;
-            margin-top: 1vh;
+            width: 220px;
+            height: 70px;
+            font-family: "TTHoves-Regular";
+            color: #FFFFFF;
+            text-transform: uppercase;
+            font-weight: 400;
         }
 
         .imgbtn {
             width: 14.1vw
+        }
+
+
+        @media all and (min-width: 651px) and (max-width: 1200px) {
+            .h2_contactus {
+                text-align: center;
+            }
+
+            .container_form {
+                display: grid;
+                grid-template-columns: 50vw;
+                justify-content: center;
+
+            }
+
+            .leftpart_form {
+                /* border: 1px solid black; */
+                display: grid;
+                justify-content: center;
+            }
+
+            .checkboxtext {
+                width: 30%;
+            }
+
+        }
+
+        @media all and (max-width: 650px) {
+            .h2_contactus {
+                text-align: center;
+            }
+
+            .container_form {
+                display: grid;
+                grid-template-columns: 60vw;
+                justify-content: center;
+            }
+
+            .leftpart_form {
+                display: grid;
+                justify-content: center;
+            }
+
+            .input {
+                width: 320px;
+                justify-content: center;
+                margin-left: 10vw;
+                margin-right: 10vw;
+            }
+
+            .checkboxtext {
+                width: 30%;
+            }
         }
     </style>
 
 </head>
 
 <body>
-    <div class="all_contactus">
+    <form class="all_contactus">
         <h2 class="h2_contactus">Связаться с нами</h2>
 
         <div class="container_form">
@@ -139,7 +198,7 @@
 
                 <div class="message">
                     <label for="message">
-                        <textarea class="textarea" name="message" id="message" placeholder="Сообщение*"></textarea>
+                        <textarea class="input" name="message" id="message" placeholder="Сообщение*"></textarea>
                     </label>
                 </div>
             </div>
@@ -147,19 +206,17 @@
             <div class="righttpart_form">
                 <img class="photo_form" src="assets/photo.jpg" alt="photo">
             </div>
+            </а>
+            <div class="checkbox">
+                <input class="box" type="checkbox" name="checkbox" id="checkbox" />
+                <p class="checkboxtext">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
+                <button class="btn">
+                    Отправить →
+                </button>
+            </div>
         </div>
-        <div class="checkbox">
-            <input class="box" type="checkbox" name="checkbox" id="checkbox" />
-            <p class="checkboxtext">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</p>
-            <button class="btn">
-                <img class="imgbtn" src="assets/Button.svg" alt="btn">
-            </button>
-        </div>
+    </form>
 
-
-
-
-    </div>
 </body>
 
 </html>
