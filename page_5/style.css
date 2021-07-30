@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+        url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+        url(../fonts/TTHoves-Regular.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+        url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+        url(../fonts/TTHoves-Bold.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Light";
+    src: url(../fonts/TTHoves-Light.woff) format("woff"),
+        url(../fonts/TTHoves-Light.ttf) format("truetype"),
+        url(../fonts/TTHoves-Light.woff2) format("woff2");
+    font-style: normal;
+}
+
+@media screen and (max-width: 900px) {
+    h1.textpro {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    p.your-stylepage2 {
+        font-size: 32px;
+    }
+}
+
+/*header*/
+
+.min {
+    min-width: 270px;
+}
+
+.sizepadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wid {
+    width: 150%;
+}
+
+
+.your-style {
+    font-family: 'TTHoves-Regular';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+/*footer*/
+.your-style1 {
+    font-family: "TTHoves-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.your-style2 {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.link-secondary {
+    text-decoration-line: none;
+    color: white;
+}
+
+.twoline {
+    text-decoration: underline overline;
+}
+
+.list li {
+    margin-bottom: 5%;
+}
+
+
+/*main*/
+.padborder {
+    padding-top: 50px;
+}
+
+.btnj {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(248, 246, 246);
+    border: none;
+    color: black;
+
+}
+
+.marg {
+    margin-right: 20px;
+}
+
+.topbot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+.textpro {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+    text-transform: uppercase;
+}
+
+.your-stylepage2 {
+    font-family: "TTHoves-Bold";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 1);
+}

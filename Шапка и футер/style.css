@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+        url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+        url(../fonts/TTHoves-Regular.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+        url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+        url(../fonts/TTHoves-Bold.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Light";
+    src: url(../fonts/TTHoves-Light.woff) format("woff"),
+        url(../fonts/TTHoves-Light.ttf) format("truetype"),
+        url(../fonts/TTHoves-Light.woff2) format("woff2");
+    font-style: normal;
+}
+
+/*header*/
+
+.min {
+    min-width: 270px;
+}
+
+.sizepadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.wid {
+    width: 150%;
+}
+
+.your-style {
+    font-family: 'TTHoves-Regular';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+/*footer*/
+.your-style1 {
+    font-family: "TTHoves-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19, 92px;
+}
+
+.your-style2 {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.link-secondary {
+    text-decoration-line: none;
+    color: white;
+}
+
+.twoline {
+    text-decoration: underline overline;
+}
+
+.list li {
+    margin-bottom: 5%;
+}
