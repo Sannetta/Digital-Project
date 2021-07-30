@@ -37,7 +37,7 @@
             display: grid;
             margin-left: 9.5%;
             margin-right: 9.5%;
-            grid-template-columns: 34% 66%;
+            grid-template-columns: 35% 65%;
         }
 
         .leftpart {
@@ -51,19 +51,21 @@
 
         .project {
             font-family: "TTHoves-Light";
+            text-transform: uppercase;
             color: #bdbdbd;
             margin: 0;
             font-weight: 300;
-            font-size: 4.3vw;
+            font-size: 64px;
             padding-top: 80%;
         }
 
         .nurtown {
             font-family: "TTHoves-Bold";
+            text-transform: uppercase;
             color: #333333;
             margin: 0;
             font-weight: 700;
-            font-size: 4.3vw;
+            font-size: 64px;
         }
 
         .left,
@@ -81,20 +83,20 @@
 
         .imgleft,
         .imgright {
-            width: 3.7vw;
+            width: 53px;
         }
 
         .line {
             width: 19vw;
             position: absolute;
-            margin-top: 28.5%;
+            margin-top: 29%;
         }
 
         .numbers {
-            width: 9vw;
+            width: 120px;
             font-family: "TTHoves-Regular";
             color: #bdbdbd;
-            font-size: 1.5vw;
+            font-size: 24px;
             margin-top: 20%;
             display: grid;
             grid-template-columns: 50% 50%;
@@ -111,9 +113,9 @@
         }
 
         .slash {
-            width: 3vw;
+            width: 44px;
             position: absolute;
-            margin-left: 3vw;
+            margin-left: 40px;
         }
 
         .picturepart>.btnlook {
@@ -124,14 +126,101 @@
             padding-bottom: 0;
         }
 
-        .imglook {
-            width: 14.1vw;
+        .btnlook {
+            font-family: "TTHoves-Regular";
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 400;
+            color: #333333;
+            width: 220px;
+            height: 70px;
         }
 
         .photo {
             height: 100%;
             width: 100%;
             object-fit: cover;
+        }
+
+        @media all and (min-width: 651px) and (max-width: 1200px) {
+            .project {
+                font-size: 30px;
+            }
+
+            .nurtown {
+                font-size: 30px;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: 40% 60%;
+            }
+
+            .slash {
+                /* width: 3vw; */
+                width: 24px;
+                margin-left: 50px;
+                margin-top: 15px;
+
+            }
+        }
+
+        @media all and (max-width: 650px) {
+            .container {
+                width: 100vw;
+                /* border: 1px solid black; */
+                display: grid;
+                grid-template-columns: 1fr;
+                position: relative;
+            }
+
+            .project {
+                font-size: 30px;
+                text-align: center;
+                padding-top: 0;
+            }
+
+            .nurtown {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .picturepart {
+                margin-top: 10%;
+                margin-bottom: 20%;
+            }
+
+            .numbers {
+                position: absolute;
+                margin-top: 120%;
+                width: 80px;
+                font-size: 16px;
+            }
+
+            .slash {
+                position: absolute;
+                width: 28px;
+                margin-left: 28px;
+                margin-top: 10%;
+            }
+
+            .left {
+                position: absolute;
+                margin-left: 130px;
+                margin-top: 120%;
+            }
+
+            .right {
+                position: absolute;
+                margin-left: 190px;
+                margin-top: 120%;
+            }
+
+            .imgleft,
+            .imgright {
+                /* width: 3.7vw; */
+                width: 42px;
+            }
         }
     </style>
 </head>
@@ -140,32 +229,34 @@
     <div class="container">
         <div class="leftpart">
             <div class="project_nurtown">
-                <h1 class="project">PROJECT</h1>
-                <h1 class="nurtown">NURTOWN</h1>
+                <h1 class="project">project</h1>
+                <h1 class="nurtown">nurtown</h1>
             </div>
 
-            <button class="left">
-                <img class="imgleft" src="Buttonleft.svg" alt="left" />
-            </button>
+            <div class="btns">
+                <button class="left">
+                    <img class="imgleft" src="assets/Buttonleft.svg" alt="left" />
+                </button>
 
-            <button class="right">
-                <img class="imgright" src="Buttonright.svg" alt="right" />
-            </button>
+                <button class="right">
+                    <img class="imgright" src="assets/Buttonright.svg" alt="right" />
+                </button>
 
-            <img class="line" src="Line.svg" alt="line" />
+                <img class="line" src="assets/Line.svg" alt="line" />
+            </div>
 
             <div class="numbers">
                 <div class="numberone">01</div>
                 <div class="numbertwo">02</div>
-                <img class="slash" src="Slash.svg" alt="slash" />
+                <img class="slash" src="assets/Slash.svg" alt="slash" />
             </div>
         </div>
 
         <div class="picturepart">
             <button class="btnlook">
-                <img class="imglook" src="look.svg" alt="look" />
+                <p class="text_look">Взглянуть →</p>
             </button>
-            <img class="photo" src="photonurtown.jpg" alt="photo" />
+            <img class="photo" src="assets/photonurtown.jpg" alt="photo" />
         </div>
     </div>
 </body>
