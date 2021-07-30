@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "TTHoves-Light";
+    src: url(../fonts/TTHoves-Light.woff) format("woff"),
+        url(../fonts/TTHoves-Light.ttf) format("truetype"),
+        url(../fonts/TTHoves-Light.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Bold";
+    src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+        url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+        url(../fonts/TTHoves-Bold.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TTHoves-Regular";
+    src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+        url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+        url(../fonts/TTHoves-Regular.woff2) format("woff2");
+    font-style: normal;
+}
+
+/*header + footer*/
+
+.wid {
+    width: 150%;
+}
+
+.min {
+    min-width: 270px;
+}
+
+.your-style {
+    font-family: "TTHoves-Regular";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.your-style1 {
+    font-family: "TTHoves-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.your-style2 {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.link-secondary {
+    text-decoration-line: none;
+    color: white;
+}
+
+.paddin {
+    padding-bottom: 10px;
+}
+
+.list li {
+    margin-bottom: 5%;
+}
+
+.down {
+    border: 1px solid #858383;
+}
+
+.wrapper-header {
+    max-width: 1200px;
+    /* margin: auto; */
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+}
+
+@media all and (max-width: 650px) {
+    .heading-top {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .heading-down {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .two img {
+        max-width: 280px;
+    }
+}
+
+
+
+
+/*основная часть*/
+
+.all {
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+}
+
+.heading_our {
+    font-family: "TTHoves-Light";
+    font-weight: 300;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.heading_projects {
+    font-family: "TTHoves-Bold";
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.line {
+    border: 1px #e5e5e5 solid;
+    /* margin: 4% 0 2% 0; */
+}
+
+.block1 {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    border: 1px solid black;
+    background-color: #FBFBFB;
+}
+
+.imgschool {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.h_block1 {
+    font-family: "TTHoves-Light";
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.text_block1 {
+    font-family: "TTHoves-Light";
+    font-weight: 300;
+    color: #000000;
+}
+
+.btn {
+    padding: 0;
+    border: none;
+    background-color: white;
+}
