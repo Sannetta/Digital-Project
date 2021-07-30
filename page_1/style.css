@@ -1,0 +1,500 @@
+
+      @font-face {
+        font-family: "SFProDisplay";
+        src: url(../fonts/SFProDisplay-Heavy.woff) format("woff"),
+          url(../fonts/SFProDisplay-Heavy.ttf) format("truetype"),
+          url(../fonts/SFProDisplay-Heavy.woff2) format("woff2");
+        font-style: normal;
+        font-weight: 900;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Regular";
+        src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+          url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+          url(../fonts/TTHoves-Regular.woff2) format("woff2");
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "TTHoves-Light";
+        src: url(../fonts/TTHoves-Light.woff) format("woff"),
+          url(../fonts/TTHoves-Light.ttf) format("truetype"),
+          url(../fonts/TTHoves-Light.woff2) format("woff2");
+        font-style: normal;
+      }
+      @font-face {
+        font-family: "TTHoves-Bold";
+        src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+          url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+          url(../fonts/TTHoves-Bold.woff2) format("woff2");
+        font-style: normal;
+      }
+      /* header+footer*/
+      .wid {
+        width: 150%;
+      }
+
+      .min{
+        min-width: 270px;
+      }
+      .twoline a{
+        text-decoration: underline overline;
+      }
+      .header-style {
+        font-family: "TTHoves-Regular";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: uppercase;
+      }
+
+      .your-style1 {
+        font-family: "TTHoves-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .your-style2 {
+        font-family: "TTHoves-Light";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      .nav-link {
+        text-decoration-line: none;
+        color: black;
+      }
+
+      .nav-item:hover {
+        text-decoration: underline;
+        color: blueviolet;
+      }
+
+      .link-secondary {
+        text-decoration-line: none;
+        color: white;
+      }
+
+      .paddin {
+        padding-bottom: 10px;
+      }
+
+      .list li {
+        margin-bottom: 5%;
+      }
+
+      .wrapper-header {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+/*Nurtown*/
+.container-nurtown {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto 10vh auto;
+    grid-template-columns: 37% 63%;
+}
+
+.leftpart {
+    position: relative;
+}
+
+.picturepart {
+    position: relative;
+    display: grid;
+}
+
+.project {
+    font-family: "TTHoves-Light";
+    color: #bdbdbd;
+    margin: 0;
+    font-weight: 300;
+    font-size: 4.3vw;
+    padding-top: 80%;
+}
+
+.nurtown {
+    font-family: "TTHoves-Bold";
+    color: #333333;
+    margin: 0;
+    font-weight: 700;
+    font-size: 4.3vw;
+}
+
+.left,
+.right {
+    grid-area: left;
+    padding: 0;
+    background-color: white;
+    border: none;
+    margin-top: 22%;
+}
+
+.right {
+    margin-left: 4%;
+}
+
+.imgleft,
+.imgright {
+    width: 3.7vw;
+}
+
+.line {
+    width: 19vw;
+    position: absolute;
+    margin-top: 28.5%;
+}
+
+.numbers {
+    width: 9vw;
+    font-family: "TTHoves-Regular";
+    color: #bdbdbd;
+    font-size: 1.5vw;
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+}
+
+.numberone,
+.numbertwo {
+    padding-top: 1vh;
+}
+
+.numbertwo {
+    text-align: right;
+}
+
+.slash {
+    width: 3vw;
+    position: absolute;
+    margin-left: 3vw;
+}
+
+.picturepart>.btnlook {
+    position: absolute;
+    background-color: white;
+    border: none;
+    align-self: flex-end;
+    padding-bottom: 0;
+}
+
+.imglook {
+    width: 14.1vw;
+}
+
+.photo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+      /*  about company */
+      .block {
+        margin: 0 auto 8vh auto;
+        max-width: 1200px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding: 0 3%;
+        background-color: #e5e5e5;
+      }
+
+      .block-item {
+        margin: 20px;
+      }
+
+     .block-item-heading h2 {
+        font-weight: 300;
+        font-size: 64px;
+      }
+     .block-item img {
+         object-fit: cover;
+         
+     }
+      .block-item-heading {
+        font-family: TTHoves-Light;
+        font-size: 64px;
+        line-height: 64px;
+        font-weight: 300;
+        color: #bdbdbd;
+      }
+
+      .block-item-text {
+        margin: 15% 0 5% 0;
+        padding-bottom: 5%;
+        font-family: TTHoves-Regular;
+        font-size: 16px;
+        line-height: 25px;
+      }
+
+      .btn-company {
+        width: 220px;
+        height: 70px;
+        background-color: #ffffff;
+        border: none;
+      }
+      .btn__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333333;
+        font-family: TTHoves-Regular;
+        font-size: 12px;
+        line-height: 12px;
+      }
+
+      .block-2 {
+        max-width: 1200px;
+        margin: 0 auto 8vh;
+      }
+
+      .block-2_body {
+        display: flex;
+        justify-content: space-between;
+        margin: 5% 0;
+      }
+      .block-2-item {
+        display: flex;
+        align-items: center;
+      }
+      .one {
+        max-width: 400px;
+      }
+      .two {
+        max-width: 570px;
+      }
+      .numbers-company {
+        font-family: SFProDisplay;
+        font-size: 200px;
+        line-height: 150px;
+        color: #f2f2f2;
+      }
+
+      .block-2_text {
+        font-family: TTHoves-Regular;
+        font-size: 22px;
+        line-height: 36px;
+        padding-left: 4%;
+      }
+
+      @media all and (max-width: 950px) {
+        .block-item-heading {
+          font-size: 40px;
+          text-align: center;
+        }
+
+        .block {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .block-button{
+            display: flex;
+            justify-content: center;
+        }
+
+        .block-2_body {
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+        }
+      }
+
+      @media all and (max-width: 500px) {
+        .block-2-item {
+          flex-direction: column;
+        }
+        .block-2_text {
+          font-size: 18px;
+        }
+
+        .btn-company{
+            margin-left:calc(50%-110px);  
+           
+        }
+        .block-item-heading h2 {
+            font-size: 40px;
+        }
+      }
+
+      /*our projects*/
+
+      .wrapper-project {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .textpro {
+        font-family: "TTHoves-Light";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 64px;
+        padding-bottom: 7%;
+
+        color: rgba(189, 189, 189, 1);
+      }
+      @media screen and (max-width: 600px) {
+        h1.card-text {
+          font-size: 10px;
+        }
+      }
+
+      .marpad {
+        padding-bottom: 26px;
+      }
+      .foto {
+        max-width: 100%;
+      }
+      .your-style {
+        font-family: "TTHoves-Bold";
+        font-weight: 500;
+        font-style: normal;
+        font-size: 34px;
+        text-transform: uppercase;
+      }
+      .btn1-link {
+        text-decoration-line: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: "TTHoves-Light";
+        font-size: 12px;
+      }
+      .size {
+        padding-left: 50px;
+        background-color: rgba(51, 51, 51, 0.8);
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .sizepadding {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .btnj {
+        width: 220px;
+        height: 70px;
+        background-color: rgb(53, 51, 51);
+        border: none;
+      }
+      .wrapper-project {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      @media all and (max-width: 950px) {
+        .textpro {
+          text-align: center;
+        }
+      }
+
+      @media all and (max-width: 500px) {
+        .textpro {
+          font-size: 40px;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .tuk {
+          display: none;
+        }
+      }
+
+      /*Form*/
+      .all_contactus {
+        max-width: 1200px;
+        margin: 6% auto;
+    }
+
+    .container_form {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+
+    .h2_contactus {
+        font-family: "TTHoves-Light";
+        color: #bdbdbd;
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 5vh;
+        font-size: 64px;
+    }
+    @media all and (max-width: 950px){
+        .h2_contactus{
+        text-align: center;
+    }
+    }
+    @media all and (max-width: 500px){
+        .h2_contactus{
+            font-size:40px;       
+    }
+    }
+
+    .input {
+        font-family: "TTHoves-Regular";
+        font-size: 1vw;
+        padding: 1vw;
+        background-color: #F3F3F3;
+        color: #8D8D8D;
+        border: none;
+        margin: 0.4vh;
+        width: 24vw;
+    }
+
+    .textarea {
+        font-family: TTHoves-Regular;
+        background-color: #F3F3F3;
+        border: none;
+        width: 24vw;
+        height: 8.5vh;
+        font-size: 1vw;
+        padding: 1vw;
+        margin: 0.4vh;
+        margin-bottom: 0;
+    }
+
+    .photo_form {
+        height: 97%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .checkbox {
+        display: grid;
+        margin-left: 0.2vw;
+        position: relative;
+        grid-template-columns: 1vw 150vw;
+    }
+
+    .checkboxtext {
+        font-family: "TTHoves-Regular";
+        font-size: 1vw;
+        margin: 1vh;
+        width: 15%;
+    }
+
+    .box {
+        margin-top: 1.2vh;
+        margin-left: 0.5vw;
+        width: 70%;
+    }
+
+    .btn {
+        padding-left: 0;
+        background-color: white;
+        border: none;
+        margin-top: 1vh;
+    }
+
+    .imgbtn {
+        width: 14.1vw
+    }
