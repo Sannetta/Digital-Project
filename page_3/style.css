@@ -91,6 +91,9 @@
     margin-right: 9.5%;
 }
 
+.twoline {
+    text-decoration: underline overline;
+}
 
 @media all and (max-width: 650px) {
     .heading-top {
@@ -121,6 +124,7 @@
 .heading_our {
     font-family: "TTHoves-Light";
     font-weight: 300;
+    font-size: 64px;
     color: #BDBDBD;
     text-transform: uppercase;
     margin: 0;
@@ -130,6 +134,7 @@
 .heading_projects {
     font-family: "TTHoves-Bold";
     font-weight: 700;
+    font-size: 64px;
     color: #333333;
     text-transform: uppercase;
     margin: 0;
@@ -139,13 +144,15 @@
 .line {
     border: 1px #e5e5e5 solid;
     /* margin: 4% 0 2% 0; */
+    margin-bottom: 3vh;
 }
 
 .block1 {
     display: grid;
     grid-template-columns: 57% 43%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #FBFBFB;
+    /* color: #FBFBFB; */
 }
 
 .imgschool {
@@ -156,18 +163,78 @@
 
 .h_block1 {
     font-family: "TTHoves-Light";
+    /* font-size: 40px; */
+    font-size: 3vw;
     font-weight: 300;
+    margin: 5% 4% 5% 4%;
     color: #BDBDBD;
 }
 
 .text_block1 {
     font-family: "TTHoves-Light";
+    font-size: 16px;
     font-weight: 300;
+    margin: 6% 15% 3% 4%;
     color: #000000;
 }
 
 .btn {
-    padding: 0;
+    font-family: "TTHoves-Regular";
+    font-size: 12px;
+    font-weight: 400;
     border: none;
+    color: #333333;
     background-color: white;
+    text-transform: uppercase;
+    width: 207px;
+    height: 71px;
+    margin: 5%;
+}
+
+@media all and (min-width: 651px) and (max-width: 1024px) {
+
+
+    .heading_our,
+    .heading_projects {
+        text-align: center;
+    }
+
+    .block1 {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        text-align: center;
+    }
+
+    .h_block1 {
+        font-size: 25px;
+    }
+
+    .text_block1 {
+        margin: 4%;
+    }
+
+}
+
+@media all and (max-width: 650px) {
+
+    .heading_our,
+    .heading_projects {
+        text-align: center;
+    }
+
+    .block1 {
+        display: grid;
+        grid-template-columns: 100%;
+
+        text-align: center;
+    }
+
+    .h_block1 {
+        font-size: 25px;
+    }
+
+    .text_block1 {
+        margin: 4%;
+    }
+
 }
