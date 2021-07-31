@@ -32,6 +32,7 @@
 }
 
 /* header+footer*/
+/* header+footer*/
 .wid {
     width: 150%;
 }
@@ -95,16 +96,13 @@
 .wrapper-header {
     max-width: 1200px;
     margin: auto;
-    margin-left: 9.5%;
-    margin-right: 9.5%;
 }
 
 /* main part */
 
 .all {
     margin: auto;
-    margin-left: 9.5%;
-    margin-right: 9.5%;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 44% 56%;
 }

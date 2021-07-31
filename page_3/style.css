@@ -22,7 +22,78 @@
     font-style: normal;
 }
 
+/* header+footer*/
+.wid {
+    width: 150%;
+}
+
+.min {
+    min-width: 270px;
+}
+
+.twoline a {
+    text-decoration: underline overline;
+}
+
+.header-style {
+    font-family: "TTHoves-Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.your-style1 {
+    font-family: "TTHoves-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.your-style2 {
+    font-family: "TTHoves-Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.nav-link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.link-secondary {
+    text-decoration-line: none;
+    color: white;
+}
+
+.paddin {
+    padding-bottom: 10px;
+}
+
+.list li {
+    margin-bottom: 5%;
+}
+
+.wrapper-header {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /*header + footer*/
+
+/* .wrapper-header {
+    max-width: 1200px;
+    margin: auto;
+}
 
 .wid {
     width: 150%;
@@ -109,7 +180,7 @@
     .two img {
         max-width: 280px;
     }
-}
+} */
 
 
 /*основная часть*/
