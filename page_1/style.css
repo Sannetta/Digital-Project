@@ -323,21 +323,24 @@
   line-height: 25px;
 }
 
-.btn-company {
+.block-button {
   width: 220px;
   height: 70px;
   background-color: #ffffff;
   border: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
 .btn__link {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #333333;
-  font-family: TTHoves-Regular;
-  font-size: 12px;
-  line-height: 12px;
-}
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: TTHoves-Regular;
+    font-size: 12px;
+    line-height: 12px;
+    align-self: center;
+  }
 
 .block-2 {
   max-width: 1200px;
@@ -389,8 +392,7 @@
   }
 
   .block-button {
-    display: flex;
-    justify-content: center;
+    margin: auto;
   }
 
   .block-2_body {
