@@ -115,8 +115,10 @@
 /*основная часть*/
 
 .all {
-    margin-left: 9.5%;
-    margin-right: 9.5%;
+    /* margin-left: 9.5%;
+    margin-right: 9.5%; */
+    max-width: 1200px;
+    margin: auto;
 }
 
 .heading_our {
