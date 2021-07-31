@@ -86,7 +86,7 @@
 
 .wrapper-header {
     max-width: 1200px;
-    /* margin: auto; */
+    margin: auto;
     margin-left: 9.5%;
     margin-right: 9.5%;
 }
@@ -281,40 +281,40 @@
     .btns {
         margin-left: 2%;
     }
+}
 
+@media all and (max-width: 650px) {
 
-    @media all and (max-width: 650px) {
-
-        .all {
-            margin: 0;
-        }
-
-        .heading_our,
-        .heading_projects {
-            text-align: center;
-        }
-
-        .block {
-            display: grid;
-            grid-template-columns: 100%;
-
-            text-align: center;
-        }
-
-        .h_block {
-            font-size: 25px;
-        }
-
-        .text_block {
-            margin: 4%;
-        }
-
-        .btns {
-            margin-left: 2%;
-            width: 70%;
-        }
-
-        .slash {
-            margin-top: 8px;
-        }
+    .all {
+        margin: 0;
     }
+
+    .heading_our,
+    .heading_projects {
+        text-align: center;
+    }
+
+    .block {
+        display: grid;
+        grid-template-columns: 100%;
+
+        text-align: center;
+    }
+
+    .h_block {
+        font-size: 25px;
+    }
+
+    .text_block {
+        margin: 4%;
+    }
+
+    .btns {
+        margin-left: 2%;
+        width: 70%;
+    }
+
+    .slash {
+        margin-top: 8px;
+    }
+}
