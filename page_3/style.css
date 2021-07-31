@@ -139,14 +139,15 @@
 
 .line {
     border: 1px #e5e5e5 solid;
-    margin-bottom: 3vh;
+    margin-top: 3%;
+    margin-bottom: 4%;
 }
 
 .block {
     display: grid;
     grid-template-columns: 57% 43%;
     background-color: #FBFBFB;
-    margin-bottom: 3%;
+    margin-bottom: 3.5%;
 }
 
 .img {
@@ -181,7 +182,7 @@
     text-transform: uppercase;
     width: 207px;
     height: 71px;
-    margin: 5%;
+    margin: 4%;
 }
 
 .navig {
@@ -193,10 +194,12 @@
 
 .btns {
     margin-top: 5%;
+    margin-bottom: 10%;
     position: relative;
     height: 64px;
     display: grid;
     align-content: center;
+
 }
 
 .numbers {
