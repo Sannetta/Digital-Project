@@ -640,7 +640,7 @@
   }
 }
 
-@media all and (max-width: 500px) {
+@media all and (min-width: 401px) and (max-width: 500px) {
   .h2_contactus {
     text-align: center;
     font-size: 40px;
@@ -655,6 +655,57 @@
   .leftpart_form {
     display: grid;
     justify-content: center;
+  }
+
+  .input {
+    width: 320px;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .check_btn {
+    display: grid;
+  }
+
+  .checkboxtext {
+    width: 30%;
+  }
+
+  .checkbox {
+    margin-left: 100vw;
+  }
+
+  .btn-form {
+    justify-self: center;
+  }
+
+  .checkbox {
+    margin-left: 0vw;
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 401px) {
+  .h2_contactus {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .container_form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /* max-width: 250px; */
+    width: 200px;
+  }
+
+
+
+  .leftpart_form {
+    display: grid;
+    justify-content: center;
+    /* width: 60vw; */
   }
 
   .input {
