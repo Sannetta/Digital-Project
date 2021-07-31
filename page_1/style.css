@@ -439,7 +439,7 @@
 
 @media screen and (max-width: 600px) {
   h1.card-text {
-    font-size: 10px;
+    font-size: 20px;
   }
 }
 
@@ -495,19 +495,26 @@
   .textpro {
     text-align: center;
   }
+
+  .your-style {
+    font-family: "TTHoves-Bold";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
 }
 
 @media all and (max-width: 500px) {
   .textpro {
     font-size: 40px;
   }
-}
 
-@media all and (max-width: 500px) {
   .tuk {
     display: none;
   }
 }
+
 
 /*Form*/
 
