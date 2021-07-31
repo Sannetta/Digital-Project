@@ -1,630 +1,687 @@
+@font-face {
+  font-family: "SFProDisplay";
+  src: url(../fonts/SFProDisplay-Heavy.woff) format("woff"),
+    url(../fonts/SFProDisplay-Heavy.ttf) format("truetype"),
+    url(../fonts/SFProDisplay-Heavy.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
 
-      @font-face {
-        font-family: "SFProDisplay";
-        src: url(../fonts/SFProDisplay-Heavy.woff) format("woff"),
-          url(../fonts/SFProDisplay-Heavy.ttf) format("truetype"),
-          url(../fonts/SFProDisplay-Heavy.woff2) format("woff2");
-        font-style: normal;
-        font-weight: 900;
-      }
+@font-face {
+  font-family: "TTHoves-Regular";
+  src: url(../fonts/TTHoves-Regular.woff) format("woff"),
+    url(../fonts/TTHoves-Regular.ttf) format("truetype"),
+    url(../fonts/TTHoves-Regular.woff2) format("woff2");
+  font-style: normal;
+}
 
-      @font-face {
-        font-family: "TTHoves-Regular";
-        src: url(../fonts/TTHoves-Regular.woff) format("woff"),
-          url(../fonts/TTHoves-Regular.ttf) format("truetype"),
-          url(../fonts/TTHoves-Regular.woff2) format("woff2");
-        font-style: normal;
-      }
+@font-face {
+  font-family: "TTHoves-Light";
+  src: url(../fonts/TTHoves-Light.woff) format("woff"),
+    url(../fonts/TTHoves-Light.ttf) format("truetype"),
+    url(../fonts/TTHoves-Light.woff2) format("woff2");
+  font-style: normal;
+}
 
-      @font-face {
-        font-family: "TTHoves-Light";
-        src: url(../fonts/TTHoves-Light.woff) format("woff"),
-          url(../fonts/TTHoves-Light.ttf) format("truetype"),
-          url(../fonts/TTHoves-Light.woff2) format("woff2");
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "TTHoves-Bold";
-        src: url(../fonts/TTHoves-Bold.woff) format("woff"),
-          url(../fonts/TTHoves-Bold.ttf) format("truetype"),
-          url(../fonts/TTHoves-Bold.woff2) format("woff2");
-        font-style: normal;
-      }
-      /* header+footer*/
-      .wid {
-        width: 150%;
-      }
+@font-face {
+  font-family: "TTHoves-Bold";
+  src: url(../fonts/TTHoves-Bold.woff) format("woff"),
+    url(../fonts/TTHoves-Bold.ttf) format("truetype"),
+    url(../fonts/TTHoves-Bold.woff2) format("woff2");
+  font-style: normal;
+}
 
-      .min{
-        min-width: 270px;
-      }
-      .twoline a{
-        text-decoration: underline overline;
-      }
-      .header-style {
-        font-family: "TTHoves-Regular";
-        font-weight: 400;
-        font-style: normal;
-        font-size: 12px;
-        line-height: 12px;
-        text-transform: uppercase;
-      }
+/* header+footer*/
+.wid {
+  width: 150%;
+}
 
-      .your-style1 {
-        font-family: "TTHoves-Bold";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 20px;
-      }
+.min {
+  min-width: 270px;
+}
 
-      .your-style2 {
-        font-family: "TTHoves-Light";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;
-      }
+.twoline a {
+  text-decoration: underline overline;
+}
 
-      .nav-link {
-        text-decoration-line: none;
-        color: black;
-      }
+.header-style {
+  font-family: "TTHoves-Regular";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
 
-      .nav-item:hover {
-        text-decoration: underline;
-        color: blueviolet;
-      }
+.your-style1 {
+  font-family: "TTHoves-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
 
-      .link-secondary {
-        text-decoration-line: none;
-        color: white;
-      }
+.your-style2 {
+  font-family: "TTHoves-Light";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
 
-      .paddin {
-        padding-bottom: 10px;
-      }
+.nav-link {
+  text-decoration-line: none;
+  color: black;
+}
 
-      .list li {
-        margin-bottom: 5%;
-      }
+.nav-item:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
 
-      .wrapper-header {
-        max-width: 1200px;
-        margin: auto;
-      }
+.link-secondary {
+  text-decoration-line: none;
+  color: white;
+}
+
+.paddin {
+  padding-bottom: 10px;
+}
+
+.list li {
+  margin-bottom: 5%;
+}
+
+.wrapper-header {
+  max-width: 1200px;
+  margin: auto;
+}
 
 /*Nurtown*/
 
 .container-nurtown {
-    max-width:1200px;
-    margin: 0 auto 10vh auto;
-    display: grid;
-    grid-template-columns: 37% 63%;
+  max-width: 1200px;
+  margin: 0 auto 10vh auto;
+  display: grid;
+  grid-template-columns: 37% 63%;
 }
 
 .leftpart {
-    position: relative;
+  position: relative;
 }
 
 .picturepart {
-    position: relative;
-    display: grid;
+  position: relative;
+  display: grid;
 }
 
 .project {
-    font-family: "TTHoves-Light";
-    text-transform: uppercase;
-    color: #bdbdbd;
-    margin: 0;
-    font-weight: 300;
-    font-size: 64px;
-    padding-top: 80%;
+  font-family: "TTHoves-Light";
+  text-transform: uppercase;
+  color: #bdbdbd;
+  margin: 0;
+  font-weight: 300;
+  font-size: 64px;
+  padding-top: 80%;
 }
 
 .nurtown {
-    font-family: "TTHoves-Bold";
-    text-transform: uppercase;
-    color: #333333;
-    margin: 0;
-    font-weight: 700;
-    font-size: 64px;
+  font-family: "TTHoves-Bold";
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0;
+  font-weight: 700;
+  font-size: 64px;
 }
 
 .left,
 .right {
-    grid-area: left;
-    padding: 0;
-    background-color: white;
-    border: none;
-    margin-top: 22%;
+  grid-area: left;
+  padding: 0;
+  background-color: white;
+  border: none;
+  margin-top: 22%;
 }
 
 .right {
-    margin-left: 4%;
+  margin-left: 4%;
 }
 
 .imgleft,
 .imgright {
-    width: 53px;
+  width: 53px;
 }
 
 .line {
-    width: 19vw;
-    position: absolute;
-    margin-top: 29%;
+  width: 19vw;
+  position: absolute;
+  margin-top: 29%;
 }
 
 .numbers {
-    width: 120px;
-    font-family: "TTHoves-Regular";
-    color: #bdbdbd;
-    font-size: 24px;
-    margin-top: 20%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    position: relative;
+  width: 120px;
+  font-family: "TTHoves-Regular";
+  color: #bdbdbd;
+  font-size: 24px;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
 }
 
 .numberone,
 .numbertwo {
-    padding-top: 1vh;
+  padding-top: 1vh;
 }
 
 .numbertwo {
-    text-align: right;
+  text-align: right;
 }
 
 .slash {
-    width: 44px;
-    position: absolute;
-    margin-left: 40px;
+  width: 44px;
+  position: absolute;
+  margin-left: 40px;
 }
 
 .picturepart>.btnlook {
-    position: absolute;
-    background-color: white;
-    border: none;
-    align-self: flex-end;
-    padding-bottom: 0;
+  position: absolute;
+  background-color: white;
+  border: none;
+  align-self: flex-end;
+  padding-bottom: 0;
 }
 
 .btnlook {
-    font-family: "TTHoves-Regular";
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    color: #333333;
-    width: 220px;
-    height: 70px;
+  font-family: "TTHoves-Regular";
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: #333333;
+  width: 220px;
+  height: 70px;
 }
 
 .photo {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 
 
 @media all and (max-width: 899px) {
-    .container-nurtown {
-        width: 100vw;
-        /* border: 1px solid black; */
-        display: grid;
-        grid-template-columns: 1fr;
-        position: relative;
-        margin: 0;
-    }
+  .container-nurtown {
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    margin: 0;
+  }
 
-    .project {
-        text-align: center;
-        padding-top: 0;
-    }
+  .project {
+    text-align: center;
+    padding-top: 0;
+  }
 
-    .nurtown {
-        text-align: center;
-    }
+  .nurtown {
+    text-align: center;
+  }
 
-    .picturepart {
-        margin-top: 10%;
-        margin-bottom: 20%;
-    }
+  .picturepart {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
 
-    .numbers {
-        position: absolute;
-        margin-top: 120%;
-        margin-left: 20px;
-        width: 80px;
-        font-size: 16px;
-    }
+  .numbers {
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 20px;
+    width: 80px;
+    font-size: 16px;
+  }
 
-    .slash {
-        position: absolute;
-        width: 28px;
-        margin-left: 28px;
-        margin-top: 10%;
-    }
+  .slash {
+    position: absolute;
+    width: 28px;
+    margin-left: 28px;
+    margin-top: 10%;
+  }
 
-    .left {
-        position: absolute;
-        margin-left: 130px;
-        margin-top: 120%;
-    }
+  .left {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 120%;
+  }
 
-    .right {
-        position: absolute;
-        margin-left: 190px;
-        margin-top: 120%;
-    }
+  .right {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 120%;
+  }
 
-    .imgleft,
-    .imgright {
-        /* width: 3.7vw; */
-        width: 42px;
-    }
+  .imgleft,
+  .imgright {
+    /* width: 3.7vw; */
+    width: 42px;
+  }
 }
 
-@media all and (max-width:500px){
-    .project, .nurtown {
-        font-size: 40px;
-    }
+@media all and (max-width:500px) {
+
+  .project,
+  .nurtown {
+    font-size: 40px;
+  }
 }
 
 
 
 
-      /*  about company */
-      .block {
-        margin: 0 auto 8vh auto;
-        max-width: 1200px;
-        box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        padding: 0 3%;
-        background-color: #e5e5e5;
-      }
+/*  about company */
+.block {
+  margin: 0 auto 8vh auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0 3%;
+  background-color: #e5e5e5;
+}
 
-      .block-item {
-        margin: 20px;
-      }
+.block-item {
+  margin: 20px;
+}
 
-     .block-item-heading h2 {
-        font-weight: 300;
-        font-size: 64px;
-      }
-     .block-item img {
-         object-fit: cover;
-     }
+.block-item-heading h2 {
+  font-weight: 300;
+  font-size: 64px;
+}
 
-     .block-image{
-         margin-bottom: 5%;
-     }
-      .block-item-heading {
-        font-family: TTHoves-Light;
-        font-size: 64px;
-        line-height: 64px;
-        font-weight: 300;
-        color: #bdbdbd;
-      }
+.block-item img {
+  object-fit: cover;
+}
 
-      .block-item-text {
-        margin: 15% 0 5% 0;
-        padding-bottom: 5%;
-        font-family: TTHoves-Regular;
-        font-size: 16px;
-        line-height: 25px;
-      }
+.block-image {
+  margin-bottom: 5%;
+}
 
-      .btn-company {
-        width: 220px;
-        height: 70px;
-        background-color: #ffffff;
-        border: none;
-      }
-      .btn__link {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #333333;
-        font-family: TTHoves-Regular;
-        font-size: 12px;
-        line-height: 12px;
-      }
+.block-item-heading {
+  font-family: TTHoves-Light;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 300;
+  color: #bdbdbd;
+}
 
-      .block-2 {
-        max-width: 1200px;
-        margin: 0 auto 8vh;
-      }
+.block-item-text {
+  margin: 15% 0 5% 0;
+  padding-bottom: 5%;
+  font-family: TTHoves-Regular;
+  font-size: 16px;
+  line-height: 25px;
+}
 
-      .block-2_body {
-        display: flex;
-        justify-content: space-between;
-        margin: 5% 0;
-      }
-      .block-2-item {
-        display: flex;
-        align-items: center;
-      }
-      .one {
-        max-width: 400px;
-      }
-      .two {
-        max-width: 570px;
-      }
-      .numbers-company {
-        font-family: SFProDisplay;
-        font-size: 200px;
-        line-height: 150px;
-        color: #f2f2f2;
-      }
+.btn-company {
+  width: 220px;
+  height: 70px;
+  background-color: #ffffff;
+  border: none;
+}
 
-      .block-2_text {
-        font-family: TTHoves-Regular;
-        font-size: 22px;
-        line-height: 36px;
-        padding-left: 4%;
-      }
+.btn__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333333;
+  font-family: TTHoves-Regular;
+  font-size: 12px;
+  line-height: 12px;
+}
 
-      @media all and (max-width: 950px) {
-        .block-item-heading {
-          font-size: 40px;
-          text-align: center;
-        }
+.block-2 {
+  max-width: 1200px;
+  margin: 0 auto 8vh;
+}
 
-        .block {
-          flex-wrap: wrap;
-          justify-content: center;
-        }
+.block-2_body {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
 
-        .block-button{
-            display: flex;
-            justify-content: center;
-        }
+.block-2-item {
+  display: flex;
+  align-items: center;
+}
 
-        .block-2_body {
-          display: flex;
-          flex-direction: column;
-          align-items:center;
-        }
-      }
+.one {
+  max-width: 400px;
+}
 
-      @media all and (max-width: 500px) {
-        .block-2-item {
-          flex-direction: column;
-        }
-        .block-2_text {
-          font-size: 18px;
-        }
+.two {
+  max-width: 570px;
+}
 
-        .btn-company{
-            margin-left:calc(50%-110px);  
-           
-        }
-        .block-item-heading h2 {
-            font-size: 40px;
-        }
-      }
+.numbers-company {
+  font-family: SFProDisplay;
+  font-size: 200px;
+  line-height: 150px;
+  color: #f2f2f2;
+}
 
-      /*our projects*/
+.block-2_text {
+  font-family: TTHoves-Regular;
+  font-size: 22px;
+  line-height: 36px;
+  padding-left: 4%;
+}
 
-      .wrapper-project {
-        max-width: 1200px;
-        margin: auto;
-      }
+@media all and (max-width: 950px) {
+  .block-item-heading {
+    font-size: 40px;
+    text-align: center;
+  }
 
-      .textpro {
-        font-family: "TTHoves-Light";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 64px;
-        line-height: 64px;
-        padding-bottom: 7%;
+  .block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-        color: rgba(189, 189, 189, 1);
-      }
-      @media screen and (max-width: 600px) {
-        h1.card-text {
-          font-size: 10px;
-        }
-      }
+  .block-button {
+    display: flex;
+    justify-content: center;
+  }
 
-      .marpad {
-        padding-bottom: 26px;
-      }
-      .foto {
-        max-width: 100%;
-      }
-      .your-style {
-        font-family: "TTHoves-Bold";
-        font-weight: 500;
-        font-style: normal;
-        font-size: 64px;
-        text-transform: uppercase;
-      }
-      .btn1-link {
-        text-decoration-line: none;
-        color: white;
-        text-transform: uppercase;
-        font-family: "TTHoves-Light";
-        font-size: 12px;
-      }
-      .size {
-        padding-left: 50px;
-        background-color: rgba(51, 51, 51, 0.8);
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      .sizepadding {
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+  .block-2_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-      .btnj {
-        width: 220px;
-        height: 70px;
-        background-color: rgb(53, 51, 51);
-        border: none;
-      }
-      .wrapper-project {
-        max-width: 1200px;
-        margin: auto;
-      }
+@media all and (max-width: 500px) {
+  .block-2-item {
+    flex-direction: column;
+  }
 
-      @media all and (max-width: 950px) {
-        .textpro {
-          text-align: center;
-        }
-      }
+  .block-2_text {
+    font-size: 18px;
+  }
 
-      @media all and (max-width: 500px) {
-        .textpro {
-          font-size: 40px;
-        }
-      }
-      @media all and (max-width: 500px) {
-        .tuk {
-          display: none;
-        }
-      }
+  .btn-company {
+    margin-left: calc(50%-110px);
 
-      /*Form*/
-      
-      .all_contactus {
-       max-width: 1200px;
-       margin: 6% auto;
-    }
+  }
 
-    .container_form {
-        display: grid;
-        grid-template-columns: 45% 55%;
-    }
+  .block-item-heading h2 {
+    font-size: 40px;
+  }
+}
 
-    .h2_contactus {
-        font-family: "TTHoves-Light";
-        color: #bdbdbd;
-        font-weight: 300;
-        margin-top: 0;
-        margin-bottom: 2vh;
-        font-size: 64px;
-    }
+/*our projects*/
 
-    .input {
-        font-family: "TTHoves-Regular";
-        font-size: 14px;
-        padding: 1vw;
-        background-color: #F3F3F3;
-        color: #8D8D8D;
-        border: none;
-        margin: 0.4vh;
-        width: 390px;
-    }
+.wrapper-project {
+  max-width: 1200px;
+  margin: auto;
+}
 
-    .message {
-        height: 140px;
-        width: 370px;
-        margin: 0;
-    }
+.textpro {
+  font-family: "TTHoves-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  padding-bottom: 7%;
 
-    .textarea {
-        margin: 0;
-    }
+  color: rgba(189, 189, 189, 1);
+}
 
-    #message {
-        padding-bottom: 80px;
-    }
+@media screen and (max-width: 600px) {
+  h1.card-text {
+    font-size: 20px;
+  }
+}
 
-    .photo_form {
-        height: 97%;
-        width: 100%;
-        object-fit: cover;
-    }
+.marpad {
+  padding-bottom: 26px;
+}
 
-    .checkbox {
-        display: grid;
-        margin-left: 0.2vw;
-        position: relative;
-        grid-template-columns: 1vw 150vw;
-    }
+.foto {
+  max-width: 100%;
+}
 
-    .checkboxtext {
-        font-family: "TTHoves-Regular";
-        font-size: 14px;
-        margin: 1vh;
-        width: 15%;
-    }
+.your-style {
+  font-family: "TTHoves-Bold";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 64px;
+  text-transform: uppercase;
+}
 
-    .box {
-        margin-top: 1.2vh;
-        margin-left: 0.5vw;
-        width: 70%;
-    }
+.btn1-link {
+  text-decoration-line: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "TTHoves-Light";
+  font-size: 12px;
+}
 
-    .btn-form {
-        background-color: #333333;
-        border: none;
-        width: 220px;
-        height: 70px;
-        font-family: "TTHoves-Regular";
-        color: #FFFFFF;
-        text-transform: uppercase;
-        font-weight: 400;
-    }
+.size {
+  padding-left: 50px;
+  background-color: rgba(51, 51, 51, 0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
-    .imgbtn {
-        width: 14.1vw
-    }
+.sizepadding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btnj {
+  width: 220px;
+  height: 70px;
+  background-color: rgb(53, 51, 51);
+  border: none;
+}
+
+.wrapper-project {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media all and (max-width: 950px) {
+  .textpro {
+    text-align: center;
+  }
+
+  .your-style {
+    font-family: "TTHoves-Bold";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .textpro {
+    font-size: 40px;
+  }
+
+  .tuk {
+    display: none;
+  }
+}
 
 
-    @media all and (max-width: 950px) {
-        .h2_contactus {
-            text-align: center;
-        }
+/*Form*/
 
-        .container_form {
-            display: grid;
-            grid-template-columns: 50vw;
-            justify-content: center;
+.all_contactus {
+  max-width: 1200px;
+  margin: 6% auto;
+}
 
-        }
+.container_form {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
 
-        .leftpart_form {
-            /* border: 1px solid black; */
-            display: grid;
-            justify-content: center;
-        }
+.h2_contactus {
+  font-family: "TTHoves-Light";
+  color: #bdbdbd;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 2vh;
+  font-size: 64px;
+}
 
-        .checkboxtext {
-            width: 30%;
-        }
+.input {
+  font-family: "TTHoves-Regular";
+  font-size: 14px;
+  padding: 1vw;
+  background-color: #F3F3F3;
+  color: #8D8D8D;
+  border: none;
+  margin: 0.4vh;
+  width: 390px;
+}
 
-    }
+.message {
+  height: 140px;
+  width: 370px;
+  margin: 0;
+}
 
-    @media all and (max-width: 500px) {
-        .h2_contactus {
-            text-align: center;
-            font-size: 40px;
+.textarea {
+  margin: 0;
+}
 
-        }
+#message {
+  padding-bottom: 80px;
+}
 
-        .container_form {
-            display: grid;
-            grid-template-columns: 60vw;
-            justify-content: center;
-        }
+.photo_form {
+  height: 97%;
+  width: 100%;
+  object-fit: cover;
+}
 
-        .leftpart_form {
-            display: grid;
-            justify-content: center;
-        }
+.checkbox {
+  display: grid;
+  margin-left: 0.2vw;
+  position: relative;
+  grid-template-columns: 1vw 150vw;
+}
 
-        .input {
-            width: 320px;
-            justify-content: center;
-            margin-left: 10vw;
-            margin-right: 10vw;
-        }
+.checkboxtext {
+  font-family: "TTHoves-Regular";
+  font-size: 14px;
+  margin: 1vh 1vh 1vh 25px;
+  width: 350px;
+}
 
-        .checkboxtext {
-            width: 30%;
-        }
-    }
+.box {
+  margin-top: 1.2vh;
+  margin-left: 0.5vw;
+  width: 30px;
+}
+
+.btn-form {
+  background-color: #333333;
+  border: none;
+  width: 220px;
+  height: 70px;
+  font-family: "TTHoves-Regular";
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  justify-self: left;
+  margin-left: 1%;
+}
+
+@media all and (min-width: 501px) and (max-width: 950px) {
+  .h2_contactus {
+    text-align: center;
+  }
+
+  .container_form {
+    display: grid;
+    grid-template-columns: 50vw;
+    justify-content: center;
+    margin-left: 3%;
+  }
+
+  .leftpart_form {
+    display: grid;
+    justify-content: center;
+  }
+
+  .checkboxtext {
+    width: 30%;
+  }
+
+  .check_btn {
+    display: grid;
+  }
+
+  .btn-form {
+    justify-self: center;
+  }
+
+
+
+  .checkbox {
+    justify-self: left;
+    margin-left: 0vw;
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .h2_contactus {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .container_form {
+    display: grid;
+    grid-template-columns: 60vw;
+    justify-content: center;
+  }
+
+  .leftpart_form {
+    display: grid;
+    justify-content: center;
+  }
+
+  .input {
+    width: 320px;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .check_btn {
+    display: grid;
+  }
+
+  .checkboxtext {
+    width: 30%;
+  }
+
+  .checkbox {
+    margin-left: 100vw;
+  }
+
+  .btn-form {
+    justify-self: center;
+  }
+
+  .checkbox {
+    margin-left: 0vw;
+    width: 200px;
+  }
+}
