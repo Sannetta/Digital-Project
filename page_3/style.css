@@ -147,30 +147,31 @@
     margin-bottom: 3vh;
 }
 
-.block1 {
+.block {
     display: grid;
     grid-template-columns: 57% 43%;
     /* border: 1px solid black; */
     background-color: #FBFBFB;
     /* color: #FBFBFB; */
+    margin-bottom: 3%;
 }
 
-.imgschool {
+.img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.h_block1 {
+.h_block {
     font-family: "TTHoves-Light";
     /* font-size: 40px; */
     font-size: 3vw;
     font-weight: 300;
-    margin: 5% 4% 5% 4%;
+    margin: 5% 4% 10% 4%;
     color: #BDBDBD;
 }
 
-.text_block1 {
+.text_block {
     font-family: "TTHoves-Light";
     font-size: 16px;
     font-weight: 300;
@@ -191,25 +192,32 @@
     margin: 5%;
 }
 
+.navig {
+    color: #333333;
+}
+
 @media all and (min-width: 651px) and (max-width: 1024px) {
 
+    .all {
+        margin: 0;
+    }
 
     .heading_our,
     .heading_projects {
         text-align: center;
     }
 
-    .block1 {
+    .block {
         display: grid;
         grid-template-columns: 40% 60%;
         text-align: center;
     }
 
-    .h_block1 {
+    .h_block {
         font-size: 25px;
     }
 
-    .text_block1 {
+    .text_block {
         margin: 4%;
     }
 
@@ -217,23 +225,27 @@
 
 @media all and (max-width: 650px) {
 
+    .all {
+        margin: 0;
+    }
+
     .heading_our,
     .heading_projects {
         text-align: center;
     }
 
-    .block1 {
+    .block {
         display: grid;
         grid-template-columns: 100%;
 
         text-align: center;
     }
 
-    .h_block1 {
+    .h_block {
         font-size: 25px;
     }
 
-    .text_block1 {
+    .text_block {
         margin: 4%;
     }
 
