@@ -194,6 +194,7 @@
 
 .navig {
     color: #333333;
+    border: none;
 }
 
 @media all and (min-width: 651px) and (max-width: 1024px) {
