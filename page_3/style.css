@@ -297,9 +297,28 @@
     .btns {
         margin-left: 2%;
         width: 70%;
+
     }
 
     .slash {
-        margin-top: 8px;
+        margin-top: 1px;
+        margin-left: 35px;
+        width: 30px;
+    }
+
+    .imgleft,
+    .imgright {
+        padding-top: 5px;
+        width: 30px;
+    }
+
+    .numbers {
+        width: 100px;
+        font-size: 18px;
+    }
+
+    .heading_our,
+    .heading_projects {
+        font-size: 30px;
     }
 }
