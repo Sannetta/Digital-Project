@@ -332,15 +332,20 @@
   display: flex;
   justify-content: center;
 }
+
 .btn__link {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #333333;
-    font-family: TTHoves-Regular;
-    font-size: 12px;
-    line-height: 12px;
-    align-self: center;
-  }
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333333;
+  font-family: TTHoves-Regular;
+  font-size: 12px;
+  line-height: 12px;
+  align-self: center;
+  background-color: #ffffff;
+  border: none;
+  width: 220px;
+  height: 70px;
+}
 
 .block-2 {
   max-width: 1200px;

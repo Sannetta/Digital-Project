@@ -40,10 +40,6 @@
     min-width: 270px;
 }
 
-.twoline a {
-    text-decoration: underline overline;
-}
-
 .header-style {
     font-family: "TTHoves-Regular";
     font-weight: 400;
@@ -97,6 +93,9 @@
     margin: auto;
 }
 
+.twoline a {
+    text-decoration: underline overline;
+}
 
 /* main part */
 
