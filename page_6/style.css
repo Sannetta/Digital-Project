@@ -175,5 +175,54 @@
 }
 
 .img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+    .all {
+        grid-template-columns: 50% 50%;
+
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    .all {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .img {
+
+        object-fit: none;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .all {
+        grid-template-columns: 1fr;
+        text-align: center;
+        /* max-width: 60vw; */
+        display: block;
+    }
+
+    .heading_cont,
+    .heading_inf {
+        font-size: 10vw;
+    }
+
+    .img {
+
+        object-fit: none;
+        padding: 5%;
+    }
+
+    .btn {
+
+        width: 150px;
+        height: 30px;
+        /* width: 50vw;
+        height: 5vh; */
+    }
