@@ -35,15 +35,19 @@
     font-size: 14px;
     color: #333333;
   }
-
-  .btn {
+  
+  .button{
+    background-color: #333333;
     width: 100%;
     min-height: 50px;
-    background-color: #333333;
-  }
-  .btn a {
-    display: block;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .btn {
+    display: block;
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
