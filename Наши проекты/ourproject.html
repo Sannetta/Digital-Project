@@ -42,98 +42,132 @@
         font-style: normal;
       }
 
-      .textpro {
-        font-family: "TTHoves-Light";
-        font-style: normal;
-        font-weight: 300;
-        font-size: 64px;
-        line-height: 64px;
-        padding-bottom: 7%;
+      .wrapper-project {
+  max-width: 1200px;
+  margin: auto;
+}
 
-        color: rgba(189, 189, 189, 1);
-      }
-      @media screen and (max-width: 600px) {
-        h1.card-text {
-          font-size: 8px;
-        }
-      }
+.textpro {
+  font-family: "TTHoves-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  padding-bottom: 7%;
 
-      .marpad {
-        padding-bottom: 26px;
-      }
-      .foto {
-        width: 100%;
-      }
+  color: rgba(189, 189, 189, 1);
+}
 
-      .your-style {
-        font-family: "TTHoves-Bold";
-        font-weight: 500;
-        font-style: normal;
-        font-size: 64px;
-        text-transform: uppercase;
-      }
-      .btn-link {
-        text-decoration-line: none;
-        color: white;
-        text-transform: uppercase;
-        font-family: "TTHoves-Light";
-        font-size: 12px;
-      }
-      .size {
-        padding-left: 50px;
-        background-color: rgba(51, 51, 51, 0.8);
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      .sizepadding {
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+@media screen and (max-width: 800px) {
+  h1.card-text {
+    font-size: 20px;
+  }
+}
 
-      .btnj {
-        width: 150px;
-        height: 40px;
-        background-color: rgb(53, 51, 51);
-        border: none;
-      }
+.marpad {
+  padding-bottom: 26px;
+}
+
+.foto {
+  max-width: 100%;
+}
+
+.your-style {
+  font-family: "TTHoves-Bold";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.btn1-link {
+  text-decoration-line: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "TTHoves-Light";
+  font-size: 12px;
+}
+
+.size {
+  padding-left: 50px;
+  background-color: rgba(51, 51, 51, 0.8);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.sizepadding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn-form {
+  background-color: #333333;
+  border: none;
+  width: 220px;
+  height: 70px;
+  font-family: "TTHoves-Regular";
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  justify-self: left;
+  margin-left: 1%;
+}
+
+
+@media all and (max-width: 950px) {
+  .textpro {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .textpro {
+    font-size: 40px;
+  }
+
+  .tuk {
+    display: none;
+  }
+}
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1 class="textpro">Наши проекты</h1>
-      <div class="row marpad">
-        <div class="col-6 text-white foto">
-          <img class="img-fluid" src="Rectangle 12.png" alt="" />
-          <div class="card-img-overlay size">
-            <h1 class="card-text your-style m-0">Досуговый центр</h1>
-            <button class="btn text-white text-left p-0">
-              <a class="btn-link" href="#"
-                >Подробнее <i class="bi bi-arrow-right"></i>
-              </a>
-            </button>
+    <div class="wrapper-project">
+      <div class="container-fluid">
+        <h2 class="textpro">Наши проекты</h2>
+        <div class="row marpad">
+          <div class="col-12 col-md-6 text-white foto">
+            <img class="img-fluid" src="Rectangle 12.png" alt="" />
+            <div class="card-img-overlay size">
+              <h1 class="card-text your-style m-0">Досуговый центр</h1>
+              <button class="btn text-white text-left p-0 btn1-link">
+                Подробнее <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 pt-4 pt-md-0">
+            <img class="img-fluid foto" src="image 15.png" alt="" />
           </div>
         </div>
-        <div class="col-6">
-          <img class="img-fluid foto" src="image 15.png" alt="" />
+        <div class="row marpad">
+          <div class="col-3 ps-0">
+            <img class="img-fluid foto tuk" src="image 16.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img class="img-fluid foto tuk" src="image 17.png" alt="" />
+          </div>
+          <div class="col-4">
+            <img class="img-fluid foto tuk" src="image 18.png" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="row marpad">
-        <div class="col-3">
-          <img class="img-fluid foto" src="image 16.png" alt="" />
+        <div class="row justify-content-center justify-content-md-end sizepadding">
+          <form action="../page_3/index.html" target="_blank">
+            <button class="btn-form">
+              все проекты <i class="bi bi-arrow-right"></i>
+            </button>
+          </form>
         </div>
-        <div class="col-5">
-          <img class="img-fluid foto" src="image 17.png" alt="" />
-        </div>
-        <div class="col-4">
-          <img class="img-fluid foto" src="image 18.png" alt="" />
-        </div>
-      </div>
-      <div class="row justify-content-end sizepadding">
-        <button class="btnj text-white text-center">
-          <a class="btn-link" href="#"
-            >Все проекты <i class="bi bi-arrow-right"></i>
-          </a>
-        </button>
       </div>
     </div>
 
