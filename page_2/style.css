@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    h1.textpro {
+    div.textpro {
         font-size: 32px;
     }
 }
