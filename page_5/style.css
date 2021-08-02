@@ -46,11 +46,6 @@
     min-width: 270px;
 }
 
-.sizepadding {
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 30px;
-}
 
 .wid {
     width: 150%;
@@ -126,6 +121,7 @@
     color: black;
 
 }
+
 
 .marg {
     margin-right: 20px;
