@@ -155,7 +155,7 @@
 .line {
   width: 19vw;
   position: absolute;
-  margin-top: 29%;
+  margin-top: 28%;
 }
 
 .numbers {
@@ -171,7 +171,7 @@
 
 .numberone,
 .numbertwo {
-  padding-top: 1vh;
+  padding-top: 0.5vh;
 }
 
 .numbertwo {
@@ -697,29 +697,50 @@
   .h2_contactus {
     text-align: center;
     font-size: 40px;
+    margin-top: 40%;
+  }
+
+  .all_contactus {
+    margin: 0;
+    justify-content: center;
   }
 
   .container_form {
+    display: block;
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
-    /* max-width: 250px; */
-    width: 200px;
+    margin: auto;
   }
 
-
+  .inputline {
+    width: 250px;
+    margin: auto;
+    display: grid;
+  }
 
   .leftpart_form {
     display: grid;
+    grid-template-columns: 1fr;
+    display: block;
     justify-content: center;
-    /* width: 60vw; */
+    width: 100%;
+    margin: auto;
   }
 
   .input {
-    width: 320px;
+    width: 250px;
     justify-content: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin: auto;
+    justify-self: center;
+  }
+
+
+
+  .name,
+  .phone,
+  .email {
+    justify-content: center;
+    margin: auto;
   }
 
   .check_btn {
@@ -735,11 +756,19 @@
   }
 
   .btn-form {
+    margin: auto;
+    justify-content: center;
     justify-self: center;
   }
 
   .checkbox {
     margin-left: 0vw;
     width: 200px;
+    margin: auto;
   }
+
+  .photo_form {
+    display: none;
+  }
+
 }
