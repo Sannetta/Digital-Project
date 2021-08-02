@@ -35,6 +35,13 @@
 }
 
 /*header*/
+.wrapper-header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
 
 .min {
     min-width: 300px;
@@ -101,6 +108,12 @@
 }
 
 /*main*/
+
+.wrapper-project {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .textpro {
     font-family: "TTHoves-Light";
     font-style: normal;

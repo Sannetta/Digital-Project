@@ -36,6 +36,12 @@
 
 /*header*/
 
+.wrapper-header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 .min {
     min-width: 270px;
 }
@@ -102,6 +108,12 @@
 
 
 /*main*/
+
+.wrapper-project {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .padborder {
     padding-top: 50px;
 }
